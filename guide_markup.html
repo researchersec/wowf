@@ -1,0 +1,35 @@
+<section class="level-guide" id="levelingGuide" aria-labelledby="levelingTitle">
+  <div class="level-header">
+    <div>
+      <div class="tag">New · Leveling tools / 1–30</div>
+      <h2 id="levelingTitle">Your next 30 levels. One page.</h2>
+      <p>Pick your faction and starting race. Get a concise questing route, nearby dungeon brackets, and real quest entries. Route order is editorial advice; official dungeon announcements and beta listings are labeled separately.</p>
+    </div>
+    <a href="#browseTitle">Browse database ↗</a>
+  </div>
+  <div class="level-form">
+    <div class="level-control"><label for="guideFaction">Faction</label><select id="guideFaction"><option value="Alliance">Alliance</option><option value="Horde">Horde</option></select></div>
+    <div class="level-control start"><label for="guideStart">Starting race</label><select id="guideStart"></select></div>
+    <div class="level-control"><label for="guideLevel">Your level</label><input id="guideLevel" type="number" min="1" max="30" step="1" value="16" inputmode="numeric"/></div>
+    <button class="level-copy" id="guideCopy" type="button">Copy route</button>
+  </div>
+  <div class="level-guide-stats" id="guideStats" aria-live="polite"></div>
+  <div class="level-layout">
+    <div class="level-route">
+      <div class="level-section-title">Questing route <small id="guideRouteSub">Suggested zone order</small></div>
+      <div id="guideRoute"></div>
+    </div>
+    <div class="level-side">
+      <div class="level-section-title">Dungeon opportunities <small id="guideDungeonCount"></small></div>
+      <div class="dungeon-group" id="guideDungeons"></div>
+      <div class="quest-suggestions">
+        <div class="level-section-title">Quests worth checking <small>Beta index · not a completion route</small></div>
+        <p class="quest-hint">These are existing catalog matches near your route. Quest levels and minimum acceptance levels are different; the index does not confirm quest givers, prerequisites, or rewards.</p>
+        <div class="quest-list" id="guideQuests"></div>
+      </div>
+    </div>
+  </div>
+  <div class="level-tips" id="guideNotes">
+    <strong>Accuracy:</strong> Four new dungeon ranges below are from <a href="https://worldofwarcraft.blizzard.com/en-us/news/24301455" target="_blank" rel="noopener noreferrer">Blizzard</a>. Older dungeon brackets come from a <a href="https://foreverdb.net/guide/leveling" target="_blank" rel="noopener noreferrer">community beta reference</a>. <a href="https://worldofwarcraft.blizzard.com/en-us/news/24315643" target="_blank" rel="noopener noreferrer">Blizzard</a> confirms the Skyborne starting experience. No route is independently speed-tested on a live realm. Progress is saved only in this browser when storage is available.
+  </div>
+</section>

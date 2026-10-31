@@ -1,0 +1,730 @@
+{
+  "version": "0.8.1",
+  "scope": "WoW Forever levels 1–30; prelaunch editorial zone routes, sourced dungeon ranges, beta-indexed quest suggestions",
+  "updated": "2026-10-31",
+  "evidence_policy": "Route order is editorial guidance, not Blizzard-certified or a measured fastest route. Blizzard dungeon level ranges are announced; older dungeon ranges and many quests are third-party beta listings. No live gameplay verification.",
+  "sources": {
+    "blizzard_dungeons": "https://worldofwarcraft.blizzard.com/en-us/news/24301455",
+    "blizzard_intro": "https://worldofwarcraft.blizzard.com/en-us/news/24315643",
+    "blizzard_legacy": "https://worldofwarcraft.blizzard.com/en-us/news/24307383",
+    "route_alliance": "https://bindonforever.com/leveling",
+    "route_horde": "https://olympusnewsnetwork.com/guides/horde-leveling-1-30",
+    "existing_dungeons": "https://foreverdb.net/guide/leveling",
+    "wowhead_beta": "https://www.wowhead.com/forever/quests"
+  },
+  "starting_options": {
+    "Alliance": [
+      {
+        "id": "human",
+        "name": "Human",
+        "start": "Elwynn Forest",
+        "notes": "Northshire, Goldshire and the Elwynn quest hubs"
+      },
+      {
+        "id": "dwarfgnome",
+        "name": "Dwarf / Gnome",
+        "start": "Dun Morogh",
+        "notes": "Coldridge Valley and Kharanos"
+      },
+      {
+        "id": "nightelf",
+        "name": "Night Elf",
+        "start": "Teldrassil",
+        "notes": "Teldrassil into Darkshore; stay in Kalimdor if you prefer"
+      },
+      {
+        "id": "skyborne_a",
+        "name": "Alliance Skyborne",
+        "start": "Zephras Isle",
+        "notes": "Officially announced starting experience, levels 1–12"
+      }
+    ],
+    "Horde": [
+      {
+        "id": "orctroll",
+        "name": "Orc / Troll",
+        "start": "Durotar",
+        "notes": "Valley of Trials, Sen'jin Village and Razor Hill"
+      },
+      {
+        "id": "tauren",
+        "name": "Tauren",
+        "start": "Mulgore",
+        "notes": "Camp Narache and Bloodhoof Village"
+      },
+      {
+        "id": "undead",
+        "name": "Undead",
+        "start": "Tirisfal Glades",
+        "notes": "Deathknell, Brill, then Silverpine Forest"
+      },
+      {
+        "id": "skyborne_h",
+        "name": "Horde Skyborne",
+        "start": "Zephras Isle",
+        "notes": "Officially announced starting experience, levels 1–12"
+      }
+    ]
+  },
+  "routes": {
+    "human": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Elwynn Forest",
+        "hub": "Northshire → Goldshire",
+        "action": "Finish convenient quests around the starter hub, visit your class trainer and grab a flight point before moving on.",
+        "focus": "questing",
+        "zone_keys": [
+          "Elwynn Forest"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "Westfall",
+        "hub": "Sentinel Hill",
+        "action": "Work through nearby Westfall quest chains. Deadmines becomes a potential dungeon stop around 17; collect relevant quests first.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Westfall",
+          "The Deadmines"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "Redridge Mountains",
+        "hub": "Lakeshire",
+        "action": "Quest around Lakeshire. If Westfall becomes difficult, switch between Redridge and remaining lower-level quests.",
+        "focus": "questing",
+        "zone_keys": [
+          "Redridge Mountains",
+          "Westfall"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Duskwood / Wetlands",
+        "hub": "Darkshire or Menethil Harbor",
+        "action": "Choose nearby yellow quests and consolidate travel. Wetlands puts you closer to the new Excavation Site dungeon.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Duskwood",
+          "Wetlands",
+          "Excavation Site: Wetlands"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Wetlands / Duskwood",
+        "hub": "Menethil Harbor or Darkshire",
+        "action": "Finish efficient remaining quests; City of Dalaran becomes a possible group objective at 28 once attunement requirements are met.",
+        "focus": "questing + dungeon preparation",
+        "zone_keys": [
+          "Wetlands",
+          "Duskwood",
+          "Alterac Mountains",
+          "City of Dalaran"
+        ]
+      }
+    ],
+    "dwarfgnome": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Dun Morogh",
+        "hub": "Coldridge Valley → Kharanos",
+        "action": "Clear the beginner hubs and unlock travel. Ironforge is near the new Hall of Thanes dungeon.",
+        "focus": "questing",
+        "zone_keys": [
+          "Dun Morogh"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "Loch Modan",
+        "hub": "Thelsamar",
+        "action": "Quest from Thelsamar; Hall of Thanes is an optional local group run from level 13 according to Blizzard.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Loch Modan",
+          "The Hall of Thanes"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "Loch Modan / Redridge",
+        "hub": "Thelsamar → Lakeshire",
+        "action": "Finish strong Loch Modan quests, then cross to Redridge or Westfall if quests run short.",
+        "focus": "questing",
+        "zone_keys": [
+          "Loch Modan",
+          "Redridge Mountains",
+          "Westfall"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Wetlands",
+        "hub": "Menethil Harbor",
+        "action": "Work around Whelgar’s Excavation; consider the new Excavation Site dungeon, which Blizzard lists at 24–29.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Wetlands",
+          "Excavation Site: Wetlands"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Wetlands / Duskwood",
+        "hub": "Menethil Harbor / Darkshire",
+        "action": "Complete remaining appropriate quests and consider Dalaran after completing its Alliance access questline.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Wetlands",
+          "Duskwood",
+          "City of Dalaran"
+        ]
+      }
+    ],
+    "nightelf": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Teldrassil",
+        "hub": "Shadowglen → Dolanaar",
+        "action": "Complete the starter hubs and travel through Darnassus toward Darkshore.",
+        "focus": "questing",
+        "zone_keys": [
+          "Teldrassil"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "Darkshore",
+        "hub": "Auberdine",
+        "action": "Quest from Auberdine. Older Eastern Kingdoms dungeons require a long detour; skip them if travel outweighs rewards.",
+        "focus": "questing",
+        "zone_keys": [
+          "Darkshore"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "Darkshore / Ashenvale",
+        "hub": "Auberdine → Astranaar",
+        "action": "Finish efficient Darkshore quests and transition toward the Ashenvale hubs.",
+        "focus": "questing",
+        "zone_keys": [
+          "Darkshore",
+          "Ashenvale"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Ashenvale",
+        "hub": "Astranaar",
+        "action": "Quest around Astranaar. Blackfathom Deeps on the coast is a potential dungeon stop.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Ashenvale",
+          "Blackfathom Deeps"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Ashenvale / Stonetalon",
+        "hub": "Astranaar → Stonetalon approach",
+        "action": "Finish quests appropriate to your level; cross-continent Dalaran is optional if your group is already preparing for it.",
+        "focus": "questing",
+        "zone_keys": [
+          "Ashenvale",
+          "Stonetalon Mountains"
+        ]
+      }
+    ],
+    "skyborne_a": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Zephras Isle",
+        "hub": "Skyborne opening experience",
+        "action": "Follow the dedicated Skyborne introductory storyline. Blizzard confirms this as the race’s level 1–12 starting zone.",
+        "focus": "starting story",
+        "zone_keys": [
+          "Zephras Isle"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "Westfall / Loch Modan",
+        "hub": "Alliance mainland quest hubs",
+        "action": "Choose an appropriate Alliance quest hub after the introductory journey. Westfall and Loch Modan are alternatives, not mandatory sequential stops.",
+        "focus": "questing",
+        "zone_keys": [
+          "Westfall",
+          "Loch Modan",
+          "The Deadmines"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "Redridge Mountains",
+        "hub": "Lakeshire",
+        "action": "Complete clustered quests around Lakeshire and your available class trainer stops.",
+        "focus": "questing",
+        "zone_keys": [
+          "Redridge Mountains"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Duskwood / Wetlands",
+        "hub": "Darkshire / Menethil Harbor",
+        "action": "Choose nearby appropriate quests; Excavation Site is the new level 24–29 option in the Wetlands.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Wetlands",
+          "Duskwood",
+          "Excavation Site: Wetlands"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Wetlands / Duskwood",
+        "hub": "Menethil Harbor / Darkshire",
+        "action": "Finish your chosen route; Dalaran requires a faction-specific access questline.",
+        "focus": "questing",
+        "zone_keys": [
+          "Wetlands",
+          "Duskwood",
+          "City of Dalaran"
+        ]
+      }
+    ],
+    "orctroll": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Durotar",
+        "hub": "Valley of Trials → Razor Hill",
+        "action": "Clear starter quests, train core abilities, and reach the Crossroads via the Barrens.",
+        "focus": "questing",
+        "zone_keys": [
+          "Durotar"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "The Barrens",
+        "hub": "The Crossroads",
+        "action": "Work in tight loops around the Crossroads. Ragefire Chasm is near Orgrimmar; Wailing Caverns is another nearby option.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "The Barrens",
+          "Wailing Caverns"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "The Barrens / Stonetalon",
+        "hub": "The Crossroads → Sun Rock Retreat",
+        "action": "Alternate clustered Barrens and Stonetalon quests rather than travelling across continents for every dungeon.",
+        "focus": "questing",
+        "zone_keys": [
+          "The Barrens",
+          "Stonetalon Mountains"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Stonetalon / Ashenvale",
+        "hub": "Sun Rock Retreat / Splintertree Post",
+        "action": "Work the easier available hubs, and consider Blackfathom Deeps if your group wants a dungeon run.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Stonetalon Mountains",
+          "Ashenvale",
+          "Blackfathom Deeps"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Ashenvale / Thousand Needles",
+        "hub": "Splintertree Post → Freewind Post",
+        "action": "Finish remaining appropriate quests and visit class trainers; Razorfen Kraul opens as a later-range option near 29.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Ashenvale",
+          "Thousand Needles"
+        ]
+      }
+    ],
+    "tauren": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Mulgore",
+        "hub": "Camp Narache → Bloodhoof Village",
+        "action": "Complete the starter zone and prepare to travel toward the Barrens.",
+        "focus": "questing",
+        "zone_keys": [
+          "Mulgore"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "The Barrens",
+        "hub": "The Crossroads",
+        "action": "Work the Crossroads quest hubs and take an optional Wailing Caverns run once ready.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "The Barrens",
+          "Wailing Caverns"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "The Barrens / Stonetalon",
+        "hub": "The Crossroads → Sun Rock Retreat",
+        "action": "Finish nearby Barrens quests, then rotate into Stonetalon where appropriate.",
+        "focus": "questing",
+        "zone_keys": [
+          "The Barrens",
+          "Stonetalon Mountains"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Stonetalon / Ashenvale",
+        "hub": "Sun Rock Retreat / Splintertree Post",
+        "action": "Quest around both hubs; consider Blackfathom Deeps for group experience and quests.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Stonetalon Mountains",
+          "Ashenvale",
+          "Blackfathom Deeps"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Thousand Needles / Ashenvale",
+        "hub": "Freewind Post / Splintertree Post",
+        "action": "Continue the most efficient available yellow quests, with Razorfen Kraul opening near 29.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Thousand Needles",
+          "Ashenvale"
+        ]
+      }
+    ],
+    "undead": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Tirisfal Glades",
+        "hub": "Deathknell → Brill",
+        "action": "Work through Tirisfal’s quest hubs and grab nearby travel connections from Undercity.",
+        "focus": "questing",
+        "zone_keys": [
+          "Tirisfal Glades"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "Silverpine / Tirisfal",
+        "hub": "The Sepulcher",
+        "action": "Quest south from the Sepulcher. The new Ruins of Lordaeron dungeon is close to Undercity at levels 15–20.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Silverpine Forest",
+          "Ruins of Lordaeron"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "Silverpine / Hillsbrad",
+        "hub": "The Sepulcher → Tarren Mill",
+        "action": "Finish Silverpine, then begin Hillsbrad quests when they are manageable. Shadowfang Keep is nearby.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Silverpine Forest",
+          "Hillsbrad Foothills"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Hillsbrad Foothills",
+        "hub": "Tarren Mill",
+        "action": "Clear nearby quests around Tarren Mill. Switch to the Barrens or Stonetalon if local quests become awkward.",
+        "focus": "questing",
+        "zone_keys": [
+          "Hillsbrad Foothills"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Hillsbrad / Alterac",
+        "hub": "Tarren Mill",
+        "action": "Continue level-appropriate quests; the new City of Dalaran dungeon begins at level 28 but needs its Horde access chain.",
+        "focus": "questing + dungeon preparation",
+        "zone_keys": [
+          "Hillsbrad Foothills",
+          "Alterac Mountains",
+          "City of Dalaran"
+        ]
+      }
+    ],
+    "skyborne_h": [
+      {
+        "level_min": 1,
+        "level_max": 12,
+        "zone": "Zephras Isle",
+        "hub": "Skyborne opening experience",
+        "action": "Complete the dedicated introductory storyline. The zone and level band are officially announced.",
+        "focus": "starting story",
+        "zone_keys": [
+          "Zephras Isle"
+        ]
+      },
+      {
+        "level_min": 13,
+        "level_max": 18,
+        "zone": "The Barrens",
+        "hub": "The Crossroads",
+        "action": "Enter the main Horde questing circuit; take a dungeon run when conveniently grouped.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "The Barrens",
+          "Wailing Caverns"
+        ]
+      },
+      {
+        "level_min": 19,
+        "level_max": 23,
+        "zone": "The Barrens / Stonetalon",
+        "hub": "The Crossroads → Sun Rock Retreat",
+        "action": "Alternate clustered quests as their levels fit your character.",
+        "focus": "questing",
+        "zone_keys": [
+          "The Barrens",
+          "Stonetalon Mountains"
+        ]
+      },
+      {
+        "level_min": 24,
+        "level_max": 27,
+        "zone": "Stonetalon / Ashenvale",
+        "hub": "Sun Rock Retreat / Splintertree Post",
+        "action": "Move through the western Barrens quest paths and continue toward Ashenvale; Blackfathom Deeps is optional.",
+        "focus": "questing + optional dungeon",
+        "zone_keys": [
+          "Stonetalon Mountains",
+          "Ashenvale",
+          "Blackfathom Deeps"
+        ]
+      },
+      {
+        "level_min": 28,
+        "level_max": 30,
+        "zone": "Thousand Needles / Ashenvale",
+        "hub": "Freewind Post / Splintertree Post",
+        "action": "Finish suitable remaining quests. City of Dalaran is a distant alternative if attuned and grouped.",
+        "focus": "questing",
+        "zone_keys": [
+          "Thousand Needles",
+          "Ashenvale"
+        ]
+      }
+    ]
+  },
+  "dungeons": [
+    {
+      "id": "hall",
+      "name": "Hall of Thanes",
+      "min": 13,
+      "max": 18,
+      "location": "Beneath Ironforge, Dun Morogh",
+      "faction": "Both",
+      "source": "blizzard_dungeons",
+      "status": "official_announced",
+      "record_id": "dungeon:hall-of-thanes",
+      "tip": "A convenient early group stop for Alliance near Ironforge; Horde must travel into Alliance territory.",
+      "category": "The Hall of Thanes",
+      "near_faction": "Alliance"
+    },
+    {
+      "id": "ragefire",
+      "name": "Ragefire Chasm",
+      "min": 13,
+      "max": 18,
+      "location": "Orgrimmar",
+      "faction": "Horde",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Located inside Orgrimmar; especially convenient for Horde.",
+      "category": "Ragefire Chasm",
+      "near_faction": "Horde"
+    },
+    {
+      "id": "ruins",
+      "name": "Ruins of Lordaeron",
+      "min": 15,
+      "max": 20,
+      "location": "Tirisfal Glades, above Undercity",
+      "faction": "Both",
+      "source": "blizzard_dungeons",
+      "status": "official_announced",
+      "record_id": "dungeon:ruins-of-lordaeron",
+      "tip": "A new early dungeon near Undercity; Alliance have a long trip.",
+      "category": "Ruins of Lordaeron",
+      "near_faction": "Horde"
+    },
+    {
+      "id": "wailing",
+      "name": "Wailing Caverns",
+      "min": 15,
+      "max": 24,
+      "location": "The Barrens",
+      "faction": "Horde",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Convenient to combine with Barrens questing.",
+      "category": "Wailing Caverns",
+      "near_faction": "Horde"
+    },
+    {
+      "id": "deadmines",
+      "name": "The Deadmines",
+      "min": 17,
+      "max": 26,
+      "location": "Westfall",
+      "faction": "Alliance",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "A natural group stop for Westfall questing.",
+      "category": "The Deadmines",
+      "near_faction": "Alliance"
+    },
+    {
+      "id": "shadowfang",
+      "name": "Shadowfang Keep",
+      "min": 20,
+      "max": 30,
+      "location": "Silverpine Forest",
+      "faction": "Horde",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Convenient for Forsaken questers heading through Silverpine.",
+      "category": "Shadowfang Keep",
+      "near_faction": "Horde"
+    },
+    {
+      "id": "blackfathom",
+      "name": "Blackfathom Deeps",
+      "min": 24,
+      "max": 32,
+      "location": "Ashenvale",
+      "faction": "Both",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Convenient from Ashenvale; bring any relevant indexed quests.",
+      "category": "Blackfathom Deeps",
+      "near_faction": "Both"
+    },
+    {
+      "id": "stockade",
+      "name": "Stormwind Stockade",
+      "min": 24,
+      "max": 32,
+      "location": "Stormwind City",
+      "faction": "Alliance",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Located inside Stormwind, useful when you return to the city.",
+      "category": "The Stockade",
+      "near_faction": "Alliance"
+    },
+    {
+      "id": "excavation",
+      "name": "Excavation Site",
+      "min": 24,
+      "max": 29,
+      "location": "Wetlands, above Whelgar’s Excavation",
+      "faction": "Both",
+      "source": "blizzard_dungeons",
+      "status": "official_announced",
+      "record_id": "dungeon:excavation-site",
+      "tip": "Blizzard’s published range is 24–29; older community beta brackets may differ.",
+      "category": "Excavation Site: Wetlands",
+      "near_faction": "Alliance"
+    },
+    {
+      "id": "dalaran",
+      "name": "City of Dalaran",
+      "min": 28,
+      "max": 33,
+      "location": "Alterac Mountains",
+      "faction": "Both",
+      "source": "blizzard_dungeons",
+      "status": "official_announced",
+      "record_id": "dungeon:city-of-dalaran",
+      "tip": "Access quest required: Alliance starts “An Alarming Request” (Emissary Jacques, Southshore); Horde starts “Key to the City” and “Prison Break-In” (Magus Wordeen Voidglare, Tarren Mill).",
+      "category": "City of Dalaran",
+      "near_faction": "Both"
+    },
+    {
+      "id": "gnomeregan",
+      "name": "Gnomeregan",
+      "min": 29,
+      "max": 38,
+      "location": "Dun Morogh",
+      "faction": "Alliance",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Appropriate near the end of this guide, particularly for groups based near Ironforge.",
+      "category": "Gnomeregan",
+      "near_faction": "Alliance"
+    },
+    {
+      "id": "razorfen",
+      "name": "Razorfen Kraul",
+      "min": 29,
+      "max": 38,
+      "location": "The Barrens",
+      "faction": "Horde",
+      "source": "existing_dungeons",
+      "status": "beta_reported",
+      "tip": "Appropriate near the end of this guide, especially from southern Barrens.",
+      "category": "Razorfen Kraul",
+      "near_faction": "Horde"
+    }
+  ]
+}

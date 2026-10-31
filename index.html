@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
-<title>Forever Field Guide V0.7 — PvP rank guide and launch preparation</title>
+<title>Forever Field Guide V0.8.1 — 1–30 quest and dungeon route planner</title>
 <meta name="description" content="Fast sourced World of Warcraft: Forever answers, dungeons, camping bonuses, Legacy perks, quests, items, spells and more.">
 <style>
 :root{--bg:#0d1216;--surface:#151c21;--panel:#192228;--border:#2d3b40;--muted:#99aaa9;--text:#f1efe7;--gold:#e2bc73;--gold2:#a57e40;--green:#96cdbb;--shadow:0 16px 50px rgba(0,0,0,.21)}
@@ -71,6 +71,50 @@
 
 
 .launch-status{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;padding:11px 15px;border:1px solid #5d6247;border-radius:10px;background:linear-gradient(90deg,#24271d,#1a2725);margin:0 0 17px;font-size:12px;color:#c9d5c9}.launch-status strong{color:#f2d29b}.launch-status a{margin-left:auto;font-size:11px}.launch-status span{font-variant-numeric:tabular-nums}.step-source{display:inline-block;margin:0 0 10px 34px;font-size:11px;color:#d7bc89}.matrix td:first-child{min-width:132px}@media(max-width:700px){.launch-status a{margin-left:0}}
+
+/* 1–30 leveling planner: compact, always-visible evidence distinction */
+.level-guide{margin:24px 0 27px;border:1px solid #5d5641;border-radius:16px;background:linear-gradient(150deg,#232921,#182329 58%,#181f25);box-shadow:0 13px 35px #0004;overflow:hidden}
+.level-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:23px 24px 12px}
+.level-header .tag{font-size:10px;color:#dfc18a;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+.level-header h2{font:normal clamp(25px,3vw,32px)/1.15 Georgia,serif;margin:6px 0 9px;color:#f6e7c9}
+.level-header p{font-size:12px;line-height:1.6;color:#afc0b9;max-width:750px;margin:0}
+.level-header a{font-size:11px;color:#e1c384;white-space:nowrap}
+.level-form{padding:15px 24px 20px;display:flex;gap:11px;align-items:end;flex-wrap:wrap;border-bottom:1px solid #37433d}
+.level-control{display:grid;gap:5px;min-width:135px}.level-control.start{min-width:185px;flex:1}
+.level-control label{font-size:10px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#b0c1b7}
+.level-control select,.level-control input{min-height:40px;padding:8px 11px;background:#1b292b;color:#f3f3e9;border:1px solid #506052;border-radius:9px;font-size:13px}
+.level-control input{width:95px}.level-copy{border:1px solid #726249;border-radius:9px;padding:10px 13px;min-height:40px;background:#393225;color:#ead39c;font-size:12px;font-weight:750}
+.level-copy:hover{background:#4b412d}.level-guide-stats{padding:10px 24px;display:flex;gap:8px 18px;align-items:center;flex-wrap:wrap;font-size:11px;color:#aabbb2;border-bottom:1px solid #313e3c}
+.level-guide-stats strong{color:#eed9a9}.level-guide-stats .rule-pill{margin-left:auto;padding:4px 8px;border-radius:100px;background:#2d342b;color:#e4d29f;border:1px solid #616143;font-size:10px}
+.level-layout{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(270px,.93fr);gap:0}
+.level-route{padding:20px 23px 23px;border-right:1px solid #37433d}
+.level-section-title{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 14px;font-size:16px;font-weight:700;color:#e9e2d1}
+.level-section-title small{font-size:10px;font-weight:500;color:#9fb0a8}
+.route-step{display:grid;grid-template-columns:48px 1fr;gap:12px;position:relative;padding:12px 0;border-top:1px solid #33443e}
+.route-step:first-of-type{border-top:0}.route-step.current{margin:0 -11px;padding:12px 11px;border-radius:9px;background:#293629;border:1px solid #788357}
+.route-step.done{opacity:.63}
+.route-range{font-size:13px;font-weight:800;color:#f0d19a;font-variant-numeric:tabular-nums;padding-top:4px}
+.route-title{display:flex;align-items:center;justify-content:space-between;gap:9px;color:#edf0e4;font-weight:730;font-size:13px}
+.route-title .now{font-size:9px;padding:2px 6px;border-radius:5px;background:#9ebd8c;color:#18231a;font-weight:800;white-space:nowrap}
+.route-hub{font-size:11px;color:#d3bd8b;margin:2px 0 5px}.route-action{font-size:12px;line-height:1.55;color:#b2c4bb;margin:0 0 8px}
+.route-bottom{display:flex;align-items:center;justify-content:space-between;gap:9px;flex-wrap:wrap}
+.route-check{font-size:11px;display:flex;gap:7px;align-items:center;color:#d5dfd2;cursor:pointer}.route-check input{accent-color:#9ebd8c;width:15px;height:15px}
+.route-type{font-size:10px;color:#91aaa0}.level-side{padding:20px 22px}.dungeon-group{display:grid;gap:8px;margin-bottom:18px}
+.dungeon-row{border:1px solid #3a4e47;border-radius:10px;background:#192726;padding:11px 12px}
+.dungeon-row .d-top{display:flex;justify-content:space-between;gap:9px;align-items:baseline}.d-name{font-size:13px;font-weight:750;color:#eae9dd}
+.d-range{white-space:nowrap;font-size:12px;font-variant-numeric:tabular-nums;color:#d2c193}.d-place{font-size:11px;color:#a7bab0;margin:3px 0}
+.dungeon-row .d-bottom{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:7px}.d-evidence{font-size:9px;font-weight:750;padding:3px 6px;border-radius:5px;border:1px solid #576a59;color:#c8e1c5}
+.d-evidence.beta{color:#f0ce91;border-color:#766246}.dungeon-row .d-link,.quest-link{border:0;background:transparent;color:#e5c487;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-size:11px;padding:3px 0}
+.dungeon-row .d-notes{font-size:11px;color:#bdcabe;line-height:1.45;margin:7px 0 1px}.quest-suggestions{border-top:1px solid #37483f;padding-top:17px}
+.quest-hint{font-size:11px;color:#b7c4bd;line-height:1.55;margin:0 0 10px}.quest-list{display:grid;gap:6px}
+.quest-suggestion{padding:8px 9px;border-radius:7px;background:#202e2b;border:1px solid #33463b;display:flex;justify-content:space-between;gap:10px;align-items:start}
+.quest-suggestion small{display:block;color:#9eafa6;font-size:10px;margin-top:2px}.quest-suggestion strong{color:#e7c68e;font-weight:700;font-size:11px}
+.level-tips{padding:15px 23px 18px;border-top:1px solid #34423b;background:#1b2525;color:#aebfb4;font-size:11px;line-height:1.6}
+.level-tips strong{color:#e4d19e}.level-tips a{color:#dfbd7b}
+.level-empty{font-size:12px;color:#a7bab1;padding:11px 0}.level-caption{margin:4px 0 13px;font-size:11px;color:#93a79c}
+@media(max-width:1000px){.level-layout{grid-template-columns:minmax(0,1fr)}.level-route{border-right:0;border-bottom:1px solid #37433d}}
+@media(max-width:700px){.level-header{padding:18px 15px 9px}.level-header a{white-space:normal}.level-form{padding:12px 15px;gap:9px}.level-control{min-width:100px}.level-control.start{min-width:145px}.level-guide-stats{padding:10px 15px}.level-guide-stats .rule-pill{margin-left:0}.level-route{padding:15px}.level-side{padding:16px}.route-step{grid-template-columns:44px 1fr;gap:9px}.level-tips{padding:13px 15px}}
+
 </style>
 </head>
 <body>
@@ -83,7 +127,7 @@
 </aside>
 <main class="main">
   <div class="mobile-brand"><div class="brand-mark">F</div><div><div class="brand-title">FOREVER</div><div class="brand-sub">Field Guide</div></div></div>
-  <div class="topline"><div class="toptext">Independent WoW: Forever reference · V0.7 · Ranked PvP and launch prep</div><div class="small-pill">Editorial snapshot · 31 Oct 2026</div></div>
+  <div class="topline"><div class="toptext">Independent WoW: Forever reference · V0.8.1 · Quest and dungeon routes 1–30</div><div class="small-pill">Editorial snapshot · 31 Oct 2026</div></div>
   <div class="content">
     <section class="hero" aria-labelledby="mainHeading">
       <div class="eyebrow">The answer is the point.</div>
@@ -91,14 +135,50 @@
       <p class="lead">A compact reference for World of Warcraft: Forever. Search once, get the essentials, and see where every claim comes from.</p>
       <div class="searchbox"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" aria-label="Search Forever information" autocomplete="off" placeholder="Search an item, PvP rank, launch question, dungeon or class…"><span class="shortcut">/ or Ctrl K</span></div>
       <div class="helper">Answers, sources, and carefully reviewed connections—never invented drop rates. <strong>Tip:</strong> choose a class to see every official change, or ask “How do I move my totems?”.</div>
-      <div class="quickrow" aria-label="Popular reference shortcuts"><button data-preset="dungeons">♜ Dungeon overview</button><button data-preset="camp">⚒ Camp buffs</button><button data-preset="legacy">❖ Legacy perks</button><button data-preset="skyborne">✧ Skyborne races</button><button data-preset="class">✺ Class change atlas</button><button data-preset="raids">♛ Raid quick sheet</button><button data-preset="attune">☷ Onyxia attunement</button><button data-preset="rulesets">⚑ Rulesets</button><button data-preset="connections">⤳ Connected answers</button><button data-preset="pvp">⚔ PvP rank rewards</button><button data-preset="launch">◷ Launch checklist</button></div>
+      <div class="quickrow" aria-label="Popular reference shortcuts"><button type="button" id="guideShortcut">🧭 Level 1–30 guide</button><button data-preset="dungeons">♜ Dungeon overview</button><button data-preset="camp">⚒ Camp buffs</button><button data-preset="legacy">❖ Legacy perks</button><button data-preset="skyborne">✧ Skyborne races</button><button data-preset="class">✺ Class change atlas</button><button data-preset="raids">♛ Raid quick sheet</button><button data-preset="attune">☷ Onyxia attunement</button><button data-preset="rulesets">⚑ Rulesets</button><button data-preset="connections">⤳ Connected answers</button><button data-preset="pvp">⚔ PvP rank rewards</button><button data-preset="launch">◷ Launch checklist</button></div>
       <div class="classbar"><label for="classSelect">Class change quick sheet</label><select id="classSelect" aria-label="Choose class"><option value="">Choose a class…</option><option>Hunter</option><option>Druid</option><option>Priest</option><option>Warrior</option><option>Mage</option><option>Shaman</option><option>Rogue</option><option>Warlock</option><option>Paladin</option></select><button id="classButton">Show changes</button><button id="clearClass" class="filter-clear" hidden>Clear class ×</button></div>
       <div class="levelbar"><label for="levelInput">Find dungeons for level</label><input id="levelInput" aria-label="Character level" type="number" min="1" max="60" value="40"><button id="levelButton">Find matches</button><button id="activeQuery" class="filter-clear" hidden></button></div>
       <div class="stats"><div class="stat"><strong id="totalCount">0</strong><span>source-linked records</span></div><div class="stat"><strong id="dungeonCount">0</strong><span>new dungeons</span></div><div class="stat"><strong id="officialCount">0</strong><span>official-source records</span></div></div>
     </section>
     <div class="launch-status" id="launchStatus" role="status"><strong>Global launch · 4 Nov, 23:00 UTC</strong><span id="launchLocal">Local time: calculating…</span><a href="https://worldofwarcraft.blizzard.com/en-us/news/24315820" target="_blank" rel="noopener noreferrer">Blizzard source ↗</a></div>
     <div class="trust-note"><span>●</span><strong>Evidence policy:</strong> “official” means announced by Blizzard, not tested on the live realm. Beta indexes and unconfirmed records are marked separately. <span id="sourceCount"></span> source pages.</div>
-    <div class="content-grid">
+    <section class="level-guide" id="levelingGuide" aria-labelledby="levelingTitle">
+  <div class="level-header">
+    <div>
+      <div class="tag">New · Leveling tools / 1–30</div>
+      <h2 id="levelingTitle">Your next 30 levels. One page.</h2>
+      <p>Pick your faction and starting race. Get a concise questing route, nearby dungeon brackets, and real quest entries. Route order is editorial advice; official dungeon announcements and beta listings are labeled separately.</p>
+    </div>
+    <a href="#browseTitle">Browse database ↗</a>
+  </div>
+  <div class="level-form">
+    <div class="level-control"><label for="guideFaction">Faction</label><select id="guideFaction"><option value="Alliance">Alliance</option><option value="Horde">Horde</option></select></div>
+    <div class="level-control start"><label for="guideStart">Starting race</label><select id="guideStart"></select></div>
+    <div class="level-control"><label for="guideLevel">Your level</label><input id="guideLevel" type="number" min="1" max="30" step="1" value="16" inputmode="numeric"/></div>
+    <button class="level-copy" id="guideCopy" type="button">Copy route</button>
+  </div>
+  <div class="level-guide-stats" id="guideStats" aria-live="polite"></div>
+  <div class="level-layout">
+    <div class="level-route">
+      <div class="level-section-title">Questing route <small id="guideRouteSub">Suggested zone order</small></div>
+      <div id="guideRoute"></div>
+    </div>
+    <div class="level-side">
+      <div class="level-section-title">Dungeon opportunities <small id="guideDungeonCount"></small></div>
+      <div class="dungeon-group" id="guideDungeons"></div>
+      <div class="quest-suggestions">
+        <div class="level-section-title">Quests worth checking <small>Beta index · not a completion route</small></div>
+        <p class="quest-hint">These are existing catalog matches near your route. Quest levels and minimum acceptance levels are different; the index does not confirm quest givers, prerequisites, or rewards.</p>
+        <div class="quest-list" id="guideQuests"></div>
+      </div>
+    </div>
+  </div>
+  <div class="level-tips" id="guideNotes">
+    <strong>Accuracy:</strong> Four new dungeon ranges below are from <a href="https://worldofwarcraft.blizzard.com/en-us/news/24301455" target="_blank" rel="noopener noreferrer">Blizzard</a>. Older dungeon brackets come from a <a href="https://foreverdb.net/guide/leveling" target="_blank" rel="noopener noreferrer">community beta reference</a>. <a href="https://worldofwarcraft.blizzard.com/en-us/news/24315643" target="_blank" rel="noopener noreferrer">Blizzard</a> confirms the Skyborne starting experience. No route is independently speed-tested on a live realm. Progress is saved only in this browser when storage is available.
+  </div>
+</section>
+
+<div class="content-grid">
       <section class="panel" aria-labelledby="browseTitle"><div class="panel-head"><h2 class="section-title" id="browseTitle">Explore the answers</h2><span class="count" id="count"></span></div><div class="toolstrip"><label for="sourceFilter">Evidence</label><select id="sourceFilter" aria-label="Filter by evidence"><option value="all">All sources</option><option value="official">Blizzard only</option><option value="beta">Third-party beta</option><option value="unconfirmed">Explicitly unconfirmed</option></select></div><div id="dungeonMatrix" class="matrix" hidden></div>
         <div class="chips" id="filters" aria-label="Filter results"></div><div id="results" class="results" aria-live="polite"></div>
       </section>
@@ -300,6 +380,112 @@ const launchInstant=new Date('2026-11-04T23:00:00Z');
 try {const localDate=new Intl.DateTimeFormat(undefined,{weekday:'short',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(launchInstant); $('launchLocal').textContent='Your time: '+localDate;} catch(e) {$('launchLocal').textContent='Local: check your time zone';}
 const hash=decodeURIComponent(location.hash.slice(1));if(byId.has(hash))state.selected=hash;
 render();
+
+</script>
+<script>
+'use strict';
+// Built-in data and existing site catalog are separate evidence tiers.
+const guideDB = {"version":"0.8.1","scope":"WoW Forever levels 1–30; prelaunch editorial zone routes, sourced dungeon ranges, beta-indexed quest suggestions","updated":"2026-10-31","evidence_policy":"Route order is editorial guidance, not Blizzard-certified or a measured fastest route. Blizzard dungeon level ranges are announced; older dungeon ranges and many quests are third-party beta listings. No live gameplay verification.","sources":{"blizzard_dungeons":"https://worldofwarcraft.blizzard.com/en-us/news/24301455","blizzard_intro":"https://worldofwarcraft.blizzard.com/en-us/news/24315643","blizzard_legacy":"https://worldofwarcraft.blizzard.com/en-us/news/24307383","route_alliance":"https://bindonforever.com/leveling","route_horde":"https://olympusnewsnetwork.com/guides/horde-leveling-1-30","existing_dungeons":"https://foreverdb.net/guide/leveling","wowhead_beta":"https://www.wowhead.com/forever/quests"},"starting_options":{"Alliance":[{"id":"human","name":"Human","start":"Elwynn Forest","notes":"Northshire, Goldshire and the Elwynn quest hubs"},{"id":"dwarfgnome","name":"Dwarf / Gnome","start":"Dun Morogh","notes":"Coldridge Valley and Kharanos"},{"id":"nightelf","name":"Night Elf","start":"Teldrassil","notes":"Teldrassil into Darkshore; stay in Kalimdor if you prefer"},{"id":"skyborne_a","name":"Alliance Skyborne","start":"Zephras Isle","notes":"Officially announced starting experience, levels 1–12"}],"Horde":[{"id":"orctroll","name":"Orc / Troll","start":"Durotar","notes":"Valley of Trials, Sen'jin Village and Razor Hill"},{"id":"tauren","name":"Tauren","start":"Mulgore","notes":"Camp Narache and Bloodhoof Village"},{"id":"undead","name":"Undead","start":"Tirisfal Glades","notes":"Deathknell, Brill, then Silverpine Forest"},{"id":"skyborne_h","name":"Horde Skyborne","start":"Zephras Isle","notes":"Officially announced starting experience, levels 1–12"}]},"routes":{"human":[{"level_min":1,"level_max":12,"zone":"Elwynn Forest","hub":"Northshire → Goldshire","action":"Finish convenient quests around the starter hub, visit your class trainer and grab a flight point before moving on.","focus":"questing","zone_keys":["Elwynn Forest"]},{"level_min":13,"level_max":18,"zone":"Westfall","hub":"Sentinel Hill","action":"Work through nearby Westfall quest chains. Deadmines becomes a potential dungeon stop around 17; collect relevant quests first.","focus":"questing + optional dungeon","zone_keys":["Westfall","The Deadmines"]},{"level_min":19,"level_max":23,"zone":"Redridge Mountains","hub":"Lakeshire","action":"Quest around Lakeshire. If Westfall becomes difficult, switch between Redridge and remaining lower-level quests.","focus":"questing","zone_keys":["Redridge Mountains","Westfall"]},{"level_min":24,"level_max":27,"zone":"Duskwood / Wetlands","hub":"Darkshire or Menethil Harbor","action":"Choose nearby yellow quests and consolidate travel. Wetlands puts you closer to the new Excavation Site dungeon.","focus":"questing + optional dungeon","zone_keys":["Duskwood","Wetlands","Excavation Site: Wetlands"]},{"level_min":28,"level_max":30,"zone":"Wetlands / Duskwood","hub":"Menethil Harbor or Darkshire","action":"Finish efficient remaining quests; City of Dalaran becomes a possible group objective at 28 once attunement requirements are met.","focus":"questing + dungeon preparation","zone_keys":["Wetlands","Duskwood","Alterac Mountains","City of Dalaran"]}],"dwarfgnome":[{"level_min":1,"level_max":12,"zone":"Dun Morogh","hub":"Coldridge Valley → Kharanos","action":"Clear the beginner hubs and unlock travel. Ironforge is near the new Hall of Thanes dungeon.","focus":"questing","zone_keys":["Dun Morogh"]},{"level_min":13,"level_max":18,"zone":"Loch Modan","hub":"Thelsamar","action":"Quest from Thelsamar; Hall of Thanes is an optional local group run from level 13 according to Blizzard.","focus":"questing + optional dungeon","zone_keys":["Loch Modan","The Hall of Thanes"]},{"level_min":19,"level_max":23,"zone":"Loch Modan / Redridge","hub":"Thelsamar → Lakeshire","action":"Finish strong Loch Modan quests, then cross to Redridge or Westfall if quests run short.","focus":"questing","zone_keys":["Loch Modan","Redridge Mountains","Westfall"]},{"level_min":24,"level_max":27,"zone":"Wetlands","hub":"Menethil Harbor","action":"Work around Whelgar’s Excavation; consider the new Excavation Site dungeon, which Blizzard lists at 24–29.","focus":"questing + optional dungeon","zone_keys":["Wetlands","Excavation Site: Wetlands"]},{"level_min":28,"level_max":30,"zone":"Wetlands / Duskwood","hub":"Menethil Harbor / Darkshire","action":"Complete remaining appropriate quests and consider Dalaran after completing its Alliance access questline.","focus":"questing + optional dungeon","zone_keys":["Wetlands","Duskwood","City of Dalaran"]}],"nightelf":[{"level_min":1,"level_max":12,"zone":"Teldrassil","hub":"Shadowglen → Dolanaar","action":"Complete the starter hubs and travel through Darnassus toward Darkshore.","focus":"questing","zone_keys":["Teldrassil"]},{"level_min":13,"level_max":18,"zone":"Darkshore","hub":"Auberdine","action":"Quest from Auberdine. Older Eastern Kingdoms dungeons require a long detour; skip them if travel outweighs rewards.","focus":"questing","zone_keys":["Darkshore"]},{"level_min":19,"level_max":23,"zone":"Darkshore / Ashenvale","hub":"Auberdine → Astranaar","action":"Finish efficient Darkshore quests and transition toward the Ashenvale hubs.","focus":"questing","zone_keys":["Darkshore","Ashenvale"]},{"level_min":24,"level_max":27,"zone":"Ashenvale","hub":"Astranaar","action":"Quest around Astranaar. Blackfathom Deeps on the coast is a potential dungeon stop.","focus":"questing + optional dungeon","zone_keys":["Ashenvale","Blackfathom Deeps"]},{"level_min":28,"level_max":30,"zone":"Ashenvale / Stonetalon","hub":"Astranaar → Stonetalon approach","action":"Finish quests appropriate to your level; cross-continent Dalaran is optional if your group is already preparing for it.","focus":"questing","zone_keys":["Ashenvale","Stonetalon Mountains"]}],"skyborne_a":[{"level_min":1,"level_max":12,"zone":"Zephras Isle","hub":"Skyborne opening experience","action":"Follow the dedicated Skyborne introductory storyline. Blizzard confirms this as the race’s level 1–12 starting zone.","focus":"starting story","zone_keys":["Zephras Isle"]},{"level_min":13,"level_max":18,"zone":"Westfall / Loch Modan","hub":"Alliance mainland quest hubs","action":"Choose an appropriate Alliance quest hub after the introductory journey. Westfall and Loch Modan are alternatives, not mandatory sequential stops.","focus":"questing","zone_keys":["Westfall","Loch Modan","The Deadmines"]},{"level_min":19,"level_max":23,"zone":"Redridge Mountains","hub":"Lakeshire","action":"Complete clustered quests around Lakeshire and your available class trainer stops.","focus":"questing","zone_keys":["Redridge Mountains"]},{"level_min":24,"level_max":27,"zone":"Duskwood / Wetlands","hub":"Darkshire / Menethil Harbor","action":"Choose nearby appropriate quests; Excavation Site is the new level 24–29 option in the Wetlands.","focus":"questing + optional dungeon","zone_keys":["Wetlands","Duskwood","Excavation Site: Wetlands"]},{"level_min":28,"level_max":30,"zone":"Wetlands / Duskwood","hub":"Menethil Harbor / Darkshire","action":"Finish your chosen route; Dalaran requires a faction-specific access questline.","focus":"questing","zone_keys":["Wetlands","Duskwood","City of Dalaran"]}],"orctroll":[{"level_min":1,"level_max":12,"zone":"Durotar","hub":"Valley of Trials → Razor Hill","action":"Clear starter quests, train core abilities, and reach the Crossroads via the Barrens.","focus":"questing","zone_keys":["Durotar"]},{"level_min":13,"level_max":18,"zone":"The Barrens","hub":"The Crossroads","action":"Work in tight loops around the Crossroads. Ragefire Chasm is near Orgrimmar; Wailing Caverns is another nearby option.","focus":"questing + optional dungeon","zone_keys":["The Barrens","Wailing Caverns"]},{"level_min":19,"level_max":23,"zone":"The Barrens / Stonetalon","hub":"The Crossroads → Sun Rock Retreat","action":"Alternate clustered Barrens and Stonetalon quests rather than travelling across continents for every dungeon.","focus":"questing","zone_keys":["The Barrens","Stonetalon Mountains"]},{"level_min":24,"level_max":27,"zone":"Stonetalon / Ashenvale","hub":"Sun Rock Retreat / Splintertree Post","action":"Work the easier available hubs, and consider Blackfathom Deeps if your group wants a dungeon run.","focus":"questing + optional dungeon","zone_keys":["Stonetalon Mountains","Ashenvale","Blackfathom Deeps"]},{"level_min":28,"level_max":30,"zone":"Ashenvale / Thousand Needles","hub":"Splintertree Post → Freewind Post","action":"Finish remaining appropriate quests and visit class trainers; Razorfen Kraul opens as a later-range option near 29.","focus":"questing + optional dungeon","zone_keys":["Ashenvale","Thousand Needles"]}],"tauren":[{"level_min":1,"level_max":12,"zone":"Mulgore","hub":"Camp Narache → Bloodhoof Village","action":"Complete the starter zone and prepare to travel toward the Barrens.","focus":"questing","zone_keys":["Mulgore"]},{"level_min":13,"level_max":18,"zone":"The Barrens","hub":"The Crossroads","action":"Work the Crossroads quest hubs and take an optional Wailing Caverns run once ready.","focus":"questing + optional dungeon","zone_keys":["The Barrens","Wailing Caverns"]},{"level_min":19,"level_max":23,"zone":"The Barrens / Stonetalon","hub":"The Crossroads → Sun Rock Retreat","action":"Finish nearby Barrens quests, then rotate into Stonetalon where appropriate.","focus":"questing","zone_keys":["The Barrens","Stonetalon Mountains"]},{"level_min":24,"level_max":27,"zone":"Stonetalon / Ashenvale","hub":"Sun Rock Retreat / Splintertree Post","action":"Quest around both hubs; consider Blackfathom Deeps for group experience and quests.","focus":"questing + optional dungeon","zone_keys":["Stonetalon Mountains","Ashenvale","Blackfathom Deeps"]},{"level_min":28,"level_max":30,"zone":"Thousand Needles / Ashenvale","hub":"Freewind Post / Splintertree Post","action":"Continue the most efficient available yellow quests, with Razorfen Kraul opening near 29.","focus":"questing + optional dungeon","zone_keys":["Thousand Needles","Ashenvale"]}],"undead":[{"level_min":1,"level_max":12,"zone":"Tirisfal Glades","hub":"Deathknell → Brill","action":"Work through Tirisfal’s quest hubs and grab nearby travel connections from Undercity.","focus":"questing","zone_keys":["Tirisfal Glades"]},{"level_min":13,"level_max":18,"zone":"Silverpine / Tirisfal","hub":"The Sepulcher","action":"Quest south from the Sepulcher. The new Ruins of Lordaeron dungeon is close to Undercity at levels 15–20.","focus":"questing + optional dungeon","zone_keys":["Silverpine Forest","Ruins of Lordaeron"]},{"level_min":19,"level_max":23,"zone":"Silverpine / Hillsbrad","hub":"The Sepulcher → Tarren Mill","action":"Finish Silverpine, then begin Hillsbrad quests when they are manageable. Shadowfang Keep is nearby.","focus":"questing + optional dungeon","zone_keys":["Silverpine Forest","Hillsbrad Foothills"]},{"level_min":24,"level_max":27,"zone":"Hillsbrad Foothills","hub":"Tarren Mill","action":"Clear nearby quests around Tarren Mill. Switch to the Barrens or Stonetalon if local quests become awkward.","focus":"questing","zone_keys":["Hillsbrad Foothills"]},{"level_min":28,"level_max":30,"zone":"Hillsbrad / Alterac","hub":"Tarren Mill","action":"Continue level-appropriate quests; the new City of Dalaran dungeon begins at level 28 but needs its Horde access chain.","focus":"questing + dungeon preparation","zone_keys":["Hillsbrad Foothills","Alterac Mountains","City of Dalaran"]}],"skyborne_h":[{"level_min":1,"level_max":12,"zone":"Zephras Isle","hub":"Skyborne opening experience","action":"Complete the dedicated introductory storyline. The zone and level band are officially announced.","focus":"starting story","zone_keys":["Zephras Isle"]},{"level_min":13,"level_max":18,"zone":"The Barrens","hub":"The Crossroads","action":"Enter the main Horde questing circuit; take a dungeon run when conveniently grouped.","focus":"questing + optional dungeon","zone_keys":["The Barrens","Wailing Caverns"]},{"level_min":19,"level_max":23,"zone":"The Barrens / Stonetalon","hub":"The Crossroads → Sun Rock Retreat","action":"Alternate clustered quests as their levels fit your character.","focus":"questing","zone_keys":["The Barrens","Stonetalon Mountains"]},{"level_min":24,"level_max":27,"zone":"Stonetalon / Ashenvale","hub":"Sun Rock Retreat / Splintertree Post","action":"Move through the western Barrens quest paths and continue toward Ashenvale; Blackfathom Deeps is optional.","focus":"questing + optional dungeon","zone_keys":["Stonetalon Mountains","Ashenvale","Blackfathom Deeps"]},{"level_min":28,"level_max":30,"zone":"Thousand Needles / Ashenvale","hub":"Freewind Post / Splintertree Post","action":"Finish suitable remaining quests. City of Dalaran is a distant alternative if attuned and grouped.","focus":"questing","zone_keys":["Thousand Needles","Ashenvale"]}]},"dungeons":[{"id":"hall","name":"Hall of Thanes","min":13,"max":18,"location":"Beneath Ironforge, Dun Morogh","faction":"Both","source":"blizzard_dungeons","status":"official_announced","record_id":"dungeon:hall-of-thanes","tip":"A convenient early group stop for Alliance near Ironforge; Horde must travel into Alliance territory.","category":"The Hall of Thanes","near_faction":"Alliance"},{"id":"ragefire","name":"Ragefire Chasm","min":13,"max":18,"location":"Orgrimmar","faction":"Horde","source":"existing_dungeons","status":"beta_reported","tip":"Located inside Orgrimmar; especially convenient for Horde.","category":"Ragefire Chasm","near_faction":"Horde"},{"id":"ruins","name":"Ruins of Lordaeron","min":15,"max":20,"location":"Tirisfal Glades, above Undercity","faction":"Both","source":"blizzard_dungeons","status":"official_announced","record_id":"dungeon:ruins-of-lordaeron","tip":"A new early dungeon near Undercity; Alliance have a long trip.","category":"Ruins of Lordaeron","near_faction":"Horde"},{"id":"wailing","name":"Wailing Caverns","min":15,"max":24,"location":"The Barrens","faction":"Horde","source":"existing_dungeons","status":"beta_reported","tip":"Convenient to combine with Barrens questing.","category":"Wailing Caverns","near_faction":"Horde"},{"id":"deadmines","name":"The Deadmines","min":17,"max":26,"location":"Westfall","faction":"Alliance","source":"existing_dungeons","status":"beta_reported","tip":"A natural group stop for Westfall questing.","category":"The Deadmines","near_faction":"Alliance"},{"id":"shadowfang","name":"Shadowfang Keep","min":20,"max":30,"location":"Silverpine Forest","faction":"Horde","source":"existing_dungeons","status":"beta_reported","tip":"Convenient for Forsaken questers heading through Silverpine.","category":"Shadowfang Keep","near_faction":"Horde"},{"id":"blackfathom","name":"Blackfathom Deeps","min":24,"max":32,"location":"Ashenvale","faction":"Both","source":"existing_dungeons","status":"beta_reported","tip":"Convenient from Ashenvale; bring any relevant indexed quests.","category":"Blackfathom Deeps","near_faction":"Both"},{"id":"stockade","name":"Stormwind Stockade","min":24,"max":32,"location":"Stormwind City","faction":"Alliance","source":"existing_dungeons","status":"beta_reported","tip":"Located inside Stormwind, useful when you return to the city.","category":"The Stockade","near_faction":"Alliance"},{"id":"excavation","name":"Excavation Site","min":24,"max":29,"location":"Wetlands, above Whelgar’s Excavation","faction":"Both","source":"blizzard_dungeons","status":"official_announced","record_id":"dungeon:excavation-site","tip":"Blizzard’s published range is 24–29; older community beta brackets may differ.","category":"Excavation Site: Wetlands","near_faction":"Alliance"},{"id":"dalaran","name":"City of Dalaran","min":28,"max":33,"location":"Alterac Mountains","faction":"Both","source":"blizzard_dungeons","status":"official_announced","record_id":"dungeon:city-of-dalaran","tip":"Access quest required: Alliance starts “An Alarming Request” (Emissary Jacques, Southshore); Horde starts “Key to the City” and “Prison Break-In” (Magus Wordeen Voidglare, Tarren Mill).","category":"City of Dalaran","near_faction":"Both"},{"id":"gnomeregan","name":"Gnomeregan","min":29,"max":38,"location":"Dun Morogh","faction":"Alliance","source":"existing_dungeons","status":"beta_reported","tip":"Appropriate near the end of this guide, particularly for groups based near Ironforge.","category":"Gnomeregan","near_faction":"Alliance"},{"id":"razorfen","name":"Razorfen Kraul","min":29,"max":38,"location":"The Barrens","faction":"Horde","source":"existing_dungeons","status":"beta_reported","tip":"Appropriate near the end of this guide, especially from southern Barrens.","category":"Razorfen Kraul","near_faction":"Horde"}]};
+const guideById = new Map((typeof data!=='undefined' ? data : []).map(x=>[x.id,x]));
+const guideElt = id => document.getElementById(id);
+const guideEsc = value => String(value??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const guideField = (r,k) => (r.attributes||[]).find(x=>x.name===k)?.value||'';
+let guideFaction='Alliance', guideStart='human', guideLevel=16;
+const guideFallback={};
+function guideSafeRead(k){try{return window.localStorage.getItem(k)??guideFallback[k]??null}catch(e){return guideFallback[k]??null}}
+function guideSafeWrite(k,v){guideFallback[k]=v;try{window.localStorage.setItem(k,v)}catch(e){}}
+function guideStorageKey(){return 'ffg-1-30:'+guideStart}
+function guideChecks(){try{return JSON.parse(guideSafeRead(guideStorageKey())||'{}')}catch(e){return {}}}
+function guideSetStartChoices(){
+ const choices=guideDB.starting_options[guideFaction];
+ guideElt('guideStart').innerHTML=choices.map(s=>`<option value="${guideEsc(s.id)}">${guideEsc(s.name)}</option>`).join('');
+ if(!choices.some(s=>s.id===guideStart))guideStart=choices[0].id;
+ guideElt('guideStart').value=guideStart;
+}
+function guideReadLevel(){
+ const n=Number(guideElt('guideLevel').value);
+ if(!Number.isInteger(n)||n<1||n>30){guideElt('guideLevel').setCustomValidity('Enter a whole level between 1 and 30.');guideElt('guideLevel').reportValidity();return false;}
+ guideElt('guideLevel').setCustomValidity('');guideLevel=n;return true;
+}
+function guideDungeonMatches(d){return guideLevel>=d.min&&guideLevel<=d.max}
+function guidePreferredDungeon(d){return d.near_faction==='Both'||d.near_faction===guideFaction}
+function guideSortDungeon(a,b){
+ const step=guideDB.routes[guideStart].find(s=>guideLevel>=s.level_min&&guideLevel<=s.level_max);
+ const rank=d=>{
+  const local=step?.zone_keys.some(k=>k.toLowerCase()===d.category.toLowerCase()||d.location.toLowerCase().includes(k.toLowerCase()));
+  return (guideDungeonMatches(d)?0:100) + (local?-35:0) + (guidePreferredDungeon(d)?0:55) + (d.min>guideLevel?d.min-guideLevel:0);
+ };
+ return rank(a)-rank(b)||a.min-b.min||a.name.localeCompare(b.name);
+}
+function guideDungeonRows(){
+ const current=guideDB.dungeons.filter(guideDungeonMatches).sort(guideSortDungeon);
+ const upcoming=guideDB.dungeons.filter(d=>d.min>guideLevel&&d.min<=Math.min(30,guideLevel+5)).sort(guideSortDungeon);
+ // Show close-to-route choices first, but allow distant alternatives when the local list is short.
+ const preferred=current.filter(guidePreferredDungeon);
+ const remote=current.filter(d=>!guidePreferredDungeon(d));
+ const future=upcoming.filter(guidePreferredDungeon);
+ let chosen=[...preferred.slice(0,5)];
+ if(chosen.length<4)chosen.push(...future.slice(0,4-chosen.length));
+ if(chosen.length<4)chosen.push(...remote.slice(0,4-chosen.length));
+ if(!chosen.length)chosen=guideDB.dungeons.filter(d=>d.min>guideLevel).sort((a,b)=>a.min-b.min).slice(0,2);
+ return [...new Map(chosen.map(d=>[d.id,d])).values()];
+}
+function guideQuestCandidates(steps,shownDungeons){
+ const active=steps.find(s=>guideLevel>=s.level_min&&guideLevel<=s.level_max)||steps[steps.length-1];
+ const keys=new Set(active.zone_keys.map(x=>x.toLowerCase()));
+ // Source-backed index entries can have minimum level lower than their suggested quest level.
+ for(const d of shownDungeons) if(guidePreferredDungeon(d)&&(guideDungeonMatches(d)||d.min-guideLevel<=2)) keys.add(d.category.toLowerCase());
+ return [...guideById.values()].filter(r=>r.type==='Quest'&&r.status==='beta_indexed').filter(r=>{
+  let category=guideField(r,'Category / zone').toLowerCase();
+  let min=Number(guideField(r,'Minimum level'));
+  let qlevel=Number(guideField(r,'Quest level'));
+  if(!keys.has(category)||!Number.isInteger(min)||min>guideLevel)return false;
+  return Number.isInteger(qlevel)&&qlevel<=guideLevel+7;
+ }).sort((a,b)=>{
+  const qa=Number(guideField(a,'Quest level')),qb=Number(guideField(b,'Quest level'));
+  return Math.abs(qa-guideLevel)-Math.abs(qb-guideLevel)||a.name.localeCompare(b.name);
+ }).slice(0,6);
+}
+function guideRender(){
+ const steps=guideDB.routes[guideStart],check=guideChecks(),doneCount=steps.filter((s,i)=>check[i]).length;
+ const chosen=guideDB.starting_options[guideFaction].find(x=>x.id===guideStart);
+ const active=steps.find(s=>guideLevel>=s.level_min&&guideLevel<=s.level_max);
+ const dungeons=guideDungeonRows();
+ guideElt('guideStats').innerHTML=`<span><strong>${guideEsc(chosen.name)}</strong> · ${guideEsc(chosen.start)}</span><span><strong>Level ${guideLevel}</strong> · ${guideEsc(active?.zone||'Choose a zone')}</span><span>${doneCount}/${steps.length} route bands checked</span><span class="rule-pill">Prelaunch · sourced, not live verified</span>`;
+ guideElt('guideRouteSub').textContent=`${steps.length} compact level bands · advice, not a fixed quest chain`;
+ guideElt('guideRoute').innerHTML=steps.map((s,i)=>{
+  const isCurrent=guideLevel>=s.level_min&&guideLevel<=s.level_max;
+  return `<article class="route-step ${isCurrent?'current':''} ${check[i]?'done':''}"><div class="route-range">${s.level_min}–${s.level_max}</div><div><div class="route-title"><span>${guideEsc(s.zone)}</span>${isCurrent?'<span class="now">YOU ARE HERE</span>':''}</div><div class="route-hub">${guideEsc(s.hub)}</div><p class="route-action">${guideEsc(s.action)}</p><div class="route-bottom"><label class="route-check"><input type="checkbox" data-route-check="${i}" ${check[i]?'checked':''}/> Mark this band done</label><span class="route-type">${guideEsc(s.focus)}</span></div></div></article>`;
+ }).join('');
+ guideElt('guideDungeonCount').textContent=`${guideDB.dungeons.filter(guideDungeonMatches).length} in published bracket`;
+ guideElt('guideDungeons').innerHTML=dungeons.length?dungeons.map(d=>{
+  const now=guideDungeonMatches(d),official=d.status==='official_announced';
+  const source=guideDB.sources[d.source];
+  return `<article class="dungeon-row"><div class="d-top"><span class="d-name">${guideEsc(d.name)}</span><strong class="d-range">${d.min}–${d.max}</strong></div><div class="d-place">${guideEsc(d.location)} · ${now?'Within published level range':'Upcoming at '+d.min}${guidePreferredDungeon(d)?'':' · Long travel'}</div><div class="d-bottom"><span class="d-evidence ${official?'':'beta'}">${official?'Blizzard announced':'Community beta range'}</span>${d.record_id&&guideById.has(d.record_id)?`<button type="button" class="d-link" data-guide-record="${guideEsc(d.record_id)}">Details in database ↗</button>`:''}<a href="${guideEsc(source)}" target="_blank" rel="noopener noreferrer" class="d-link">Source ↗</a></div>${d.id==='dalaran'?`<p class="d-notes">${guideEsc(d.tip)}</p>`:''}</article>`;
+ }).join(''):'<div class="level-empty">No dungeon matches this band. Your first published dungeon bracket begins at level 13.</div>';
+ const questRows=guideQuestCandidates(steps,dungeons);
+ guideElt('guideQuests').innerHTML=questRows.length?questRows.map(q=>`<div class="quest-suggestion"><div><button class="quest-link" type="button" data-guide-record="${guideEsc(q.id)}">${guideEsc(q.name)} ↗</button><small>${guideEsc(guideField(q,'Category / zone'))} · Quest level ${guideEsc(guideField(q,'Quest level'))} · Minimum ${guideEsc(guideField(q,'Minimum level'))}</small></div><strong>Beta index</strong></div>`).join(''):'<div class="level-empty">No matching quest listing in our partial beta index for this zone and level. This does not mean there are no quests.</div>';
+}
+function guideCopyText(){
+ const steps=guideDB.routes[guideStart],links=guideDB.sources;
+ const planned=guideDB.dungeons.filter(d=>d.min<=30&&guidePreferredDungeon(d)).sort((a,b)=>a.min-b.min);
+ return `Forever Field Guide · Level 1–30 editorial plan\n${guideFaction} / ${guideStart} · Current level ${guideLevel}\n\n`+
+ steps.map(s=>`${s.level_min}–${s.level_max}: ${s.zone} (${s.hub})\n  ${s.action}`).join('\n')+
+ '\n\nDungeon reference (not mandatory):\n'+planned.map(d=>`• ${d.name} ${d.min}–${d.max} (${d.status==='official_announced'?'Blizzard announced':'community beta range'})`).join('\n')+
+ `\n\nSources: ${links.blizzard_dungeons} | ${links.route_alliance} | ${links.route_horde}\nPrelaunch editorial suggestions; not verified fastest or live-server confirmed.`;
+}
+guideElt('guideFaction').addEventListener('change',e=>{guideFaction=e.target.value;guideSetStartChoices();guideRender()});
+guideElt('guideStart').addEventListener('change',e=>{guideStart=e.target.value;guideRender()});
+guideElt('guideLevel').addEventListener('change',()=>{if(guideReadLevel())guideRender()});
+guideElt('guideLevel').addEventListener('input',()=>{if(Number.isInteger(Number(guideElt('guideLevel').value))&&Number(guideElt('guideLevel').value)>=1&&Number(guideElt('guideLevel').value)<=30){guideReadLevel();guideRender()}});
+guideElt('guideRoute').addEventListener('change',e=>{const c=e.target.closest('[data-route-check]');if(!c)return;const state=guideChecks();state[Number(c.dataset.routeCheck)]=c.checked;guideSafeWrite(guideStorageKey(),JSON.stringify(state));guideRender()});
+guideElt('guideCopy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(guideCopyText());guideElt('guideCopy').textContent='Copied ✓';setTimeout(()=>guideElt('guideCopy').textContent='Copy route',1600)}catch(e){window.prompt('Copy the route:',guideCopyText())}});
+guideElt('levelingGuide').addEventListener('click',e=>{const b=e.target.closest('[data-guide-record]');if(!b)return;if(typeof selectRecord==='function')selectRecord(b.dataset.guideRecord)});
+const initGuideFaction=guideSafeRead('ffg-1-30:faction');if(initGuideFaction==='Horde')guideFaction='Horde';
+guideElt('guideFaction').value=guideFaction;
+guideSetStartChoices();guideRender();
+guideElt('guideFaction').addEventListener('change',()=>guideSafeWrite('ffg-1-30:faction',guideFaction));
+const short=guideElt('guideShortcut');if(short)short.addEventListener('click',()=>guideElt('levelingGuide').scrollIntoView({behavior:'smooth',block:'start'}));
 
 </script>
 </body></html>

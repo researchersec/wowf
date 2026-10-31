@@ -1,0 +1,42 @@
+/* 1–30 leveling planner: compact, always-visible evidence distinction */
+.level-guide{margin:24px 0 27px;border:1px solid #5d5641;border-radius:16px;background:linear-gradient(150deg,#232921,#182329 58%,#181f25);box-shadow:0 13px 35px #0004;overflow:hidden}
+.level-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:23px 24px 12px}
+.level-header .tag{font-size:10px;color:#dfc18a;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+.level-header h2{font:normal clamp(25px,3vw,32px)/1.15 Georgia,serif;margin:6px 0 9px;color:#f6e7c9}
+.level-header p{font-size:12px;line-height:1.6;color:#afc0b9;max-width:750px;margin:0}
+.level-header a{font-size:11px;color:#e1c384;white-space:nowrap}
+.level-form{padding:15px 24px 20px;display:flex;gap:11px;align-items:end;flex-wrap:wrap;border-bottom:1px solid #37433d}
+.level-control{display:grid;gap:5px;min-width:135px}.level-control.start{min-width:185px;flex:1}
+.level-control label{font-size:10px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#b0c1b7}
+.level-control select,.level-control input{min-height:40px;padding:8px 11px;background:#1b292b;color:#f3f3e9;border:1px solid #506052;border-radius:9px;font-size:13px}
+.level-control input{width:95px}.level-copy{border:1px solid #726249;border-radius:9px;padding:10px 13px;min-height:40px;background:#393225;color:#ead39c;font-size:12px;font-weight:750}
+.level-copy:hover{background:#4b412d}.level-guide-stats{padding:10px 24px;display:flex;gap:8px 18px;align-items:center;flex-wrap:wrap;font-size:11px;color:#aabbb2;border-bottom:1px solid #313e3c}
+.level-guide-stats strong{color:#eed9a9}.level-guide-stats .rule-pill{margin-left:auto;padding:4px 8px;border-radius:100px;background:#2d342b;color:#e4d29f;border:1px solid #616143;font-size:10px}
+.level-layout{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(270px,.93fr);gap:0}
+.level-route{padding:20px 23px 23px;border-right:1px solid #37433d}
+.level-section-title{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 14px;font-size:16px;font-weight:700;color:#e9e2d1}
+.level-section-title small{font-size:10px;font-weight:500;color:#9fb0a8}
+.route-step{display:grid;grid-template-columns:48px 1fr;gap:12px;position:relative;padding:12px 0;border-top:1px solid #33443e}
+.route-step:first-of-type{border-top:0}.route-step.current{margin:0 -11px;padding:12px 11px;border-radius:9px;background:#293629;border:1px solid #788357}
+.route-step.done{opacity:.63}
+.route-range{font-size:13px;font-weight:800;color:#f0d19a;font-variant-numeric:tabular-nums;padding-top:4px}
+.route-title{display:flex;align-items:center;justify-content:space-between;gap:9px;color:#edf0e4;font-weight:730;font-size:13px}
+.route-title .now{font-size:9px;padding:2px 6px;border-radius:5px;background:#9ebd8c;color:#18231a;font-weight:800;white-space:nowrap}
+.route-hub{font-size:11px;color:#d3bd8b;margin:2px 0 5px}.route-action{font-size:12px;line-height:1.55;color:#b2c4bb;margin:0 0 8px}
+.route-bottom{display:flex;align-items:center;justify-content:space-between;gap:9px;flex-wrap:wrap}
+.route-check{font-size:11px;display:flex;gap:7px;align-items:center;color:#d5dfd2;cursor:pointer}.route-check input{accent-color:#9ebd8c;width:15px;height:15px}
+.route-type{font-size:10px;color:#91aaa0}.level-side{padding:20px 22px}.dungeon-group{display:grid;gap:8px;margin-bottom:18px}
+.dungeon-row{border:1px solid #3a4e47;border-radius:10px;background:#192726;padding:11px 12px}
+.dungeon-row .d-top{display:flex;justify-content:space-between;gap:9px;align-items:baseline}.d-name{font-size:13px;font-weight:750;color:#eae9dd}
+.d-range{white-space:nowrap;font-size:12px;font-variant-numeric:tabular-nums;color:#d2c193}.d-place{font-size:11px;color:#a7bab0;margin:3px 0}
+.dungeon-row .d-bottom{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:7px}.d-evidence{font-size:9px;font-weight:750;padding:3px 6px;border-radius:5px;border:1px solid #576a59;color:#c8e1c5}
+.d-evidence.beta{color:#f0ce91;border-color:#766246}.dungeon-row .d-link,.quest-link{border:0;background:transparent;color:#e5c487;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-size:11px;padding:3px 0}
+.dungeon-row .d-notes{font-size:11px;color:#bdcabe;line-height:1.45;margin:7px 0 1px}.quest-suggestions{border-top:1px solid #37483f;padding-top:17px}
+.quest-hint{font-size:11px;color:#b7c4bd;line-height:1.55;margin:0 0 10px}.quest-list{display:grid;gap:6px}
+.quest-suggestion{padding:8px 9px;border-radius:7px;background:#202e2b;border:1px solid #33463b;display:flex;justify-content:space-between;gap:10px;align-items:start}
+.quest-suggestion small{display:block;color:#9eafa6;font-size:10px;margin-top:2px}.quest-suggestion strong{color:#e7c68e;font-weight:700;font-size:11px}
+.level-tips{padding:15px 23px 18px;border-top:1px solid #34423b;background:#1b2525;color:#aebfb4;font-size:11px;line-height:1.6}
+.level-tips strong{color:#e4d19e}.level-tips a{color:#dfbd7b}
+.level-empty{font-size:12px;color:#a7bab1;padding:11px 0}.level-caption{margin:4px 0 13px;font-size:11px;color:#93a79c}
+@media(max-width:1000px){.level-layout{grid-template-columns:minmax(0,1fr)}.level-route{border-right:0;border-bottom:1px solid #37433d}}
+@media(max-width:700px){.level-header{padding:18px 15px 9px}.level-header a{white-space:normal}.level-form{padding:12px 15px;gap:9px}.level-control{min-width:100px}.level-control.start{min-width:145px}.level-guide-stats{padding:10px 15px}.level-guide-stats .rule-pill{margin-left:0}.level-route{padding:15px}.level-side{padding:16px}.route-step{grid-template-columns:44px 1fr;gap:9px}.level-tips{padding:13px 15px}}
