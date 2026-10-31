@@ -1,0 +1,2103 @@
+{
+  "version": "0.7.0",
+  "evidence_scope": "Prelaunch official announcements and beta indexes; no independent live verification",
+  "edges": [
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:01",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:01",
+      "to": "step:onyxia:alliance:02",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:02",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:02",
+      "to": "step:onyxia:alliance:03",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:03",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:03",
+      "to": "step:onyxia:alliance:04",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:04",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:04",
+      "to": "step:onyxia:alliance:05",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:05",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:05",
+      "to": "step:onyxia:alliance:06",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:06",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:06",
+      "to": "step:onyxia:alliance:07",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:07",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:07",
+      "to": "step:onyxia:alliance:08",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:08",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:08",
+      "to": "step:onyxia:alliance:09",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:09",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:09",
+      "to": "step:onyxia:alliance:10",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:10",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:10",
+      "to": "step:onyxia:alliance:11",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "step:onyxia:alliance:11",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "item:drakefire-amulet",
+      "type": "leads_to_reward",
+      "label": "Leads to Drakefire Amulet",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-alliance",
+      "to": "raid:onyxia-s-lair",
+      "type": "prepares_for",
+      "label": "Attunement route for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:alliance:11",
+      "to": "item:drakefire-amulet",
+      "type": "completes_reward",
+      "label": "Completes Drakefire Amulet",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:01",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:01",
+      "to": "step:onyxia:horde:02",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:02",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:02",
+      "to": "step:onyxia:horde:03",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:03",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:03",
+      "to": "step:onyxia:horde:04",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:04",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:04",
+      "to": "step:onyxia:horde:05",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:05",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:05",
+      "to": "step:onyxia:horde:06",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:06",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:06",
+      "to": "step:onyxia:horde:07",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:07",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:07",
+      "to": "step:onyxia:horde:08",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:08",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:08",
+      "to": "step:onyxia:horde:09",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:09",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:09",
+      "to": "step:onyxia:horde:10",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:10",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:10",
+      "to": "step:onyxia:horde:11",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:11",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:11",
+      "to": "step:onyxia:horde:12",
+      "type": "next_milestone",
+      "label": "Next in published route",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "step:onyxia:horde:12",
+      "type": "contains_milestone",
+      "label": "Includes milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "item:drakefire-amulet",
+      "type": "leads_to_reward",
+      "label": "Leads to Drakefire Amulet",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "guide:onyxia-attunement-horde",
+      "to": "raid:onyxia-s-lair",
+      "type": "prepares_for",
+      "label": "Attunement route for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "step:onyxia:horde:12",
+      "to": "item:drakefire-amulet",
+      "type": "completes_reward",
+      "label": "Completes Drakefire Amulet",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "raid:onyxia-s-lair",
+      "to": "item:drakefire-amulet",
+      "type": "requires_in_inventory",
+      "label": "Requires in inventory (not equipped)",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "raid:the-barrow-deeps",
+      "to": "zone:mount-hyjal",
+      "type": "located_in",
+      "label": "Located in",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "raid:hyjal-summit",
+      "to": "zone:mount-hyjal",
+      "type": "located_in",
+      "label": "Located in",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "dungeon:kroldok-stronghold",
+      "to": "zone:riverglades",
+      "type": "located_in",
+      "label": "Located in",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301455",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "dungeon:blackmaw-hold",
+      "to": "raid:the-barrow-deeps",
+      "type": "has_raid_entrance",
+      "label": "One route to Barrow Deeps",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:helendis-riverhorn",
+      "to": "step:onyxia:alliance:01",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:helendis-riverhorn",
+      "to": "step:onyxia:alliance:02",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-maxwell",
+      "to": "step:onyxia:alliance:02",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-maxwell",
+      "to": "step:onyxia:alliance:04",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-maxwell",
+      "to": "step:onyxia:alliance:07",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:03",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:05",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:06",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:07",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:08",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:marshal-windsor",
+      "to": "step:onyxia:alliance:09",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:highlord-bolvar-fordragon",
+      "to": "step:onyxia:alliance:10",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:warlord-goretooth",
+      "to": "step:onyxia:horde:01",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:warlord-goretooth",
+      "to": "step:onyxia:horde:02",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:eitrigg",
+      "to": "step:onyxia:horde:03",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:thrall",
+      "to": "step:onyxia:horde:03",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:thrall",
+      "to": "step:onyxia:horde:04",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:thrall",
+      "to": "step:onyxia:horde:05",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:rexxar",
+      "to": "step:onyxia:horde:05",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:rexxar",
+      "to": "step:onyxia:horde:06",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:rexxar",
+      "to": "step:onyxia:horde:10",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:rexxar",
+      "to": "step:onyxia:horde:12",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:myranda-the-hag",
+      "to": "step:onyxia:horde:06",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:myranda-the-hag",
+      "to": "step:onyxia:horde:07",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:emberstrife",
+      "to": "step:onyxia:horde:08",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:emberstrife",
+      "to": "step:onyxia:horde:09",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:emberstrife",
+      "to": "step:onyxia:horde:10",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:general-drakkisath",
+      "to": "step:onyxia:alliance:11",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "npc:attunement:general-drakkisath",
+      "to": "step:onyxia:horde:11",
+      "type": "appears_in_milestone",
+      "label": "Named in milestone",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "item:attunement:a-crumpled-up-note",
+      "to": "step:onyxia:alliance:05",
+      "type": "used_or_obtained_during",
+      "label": "Used / obtained during",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "item:attunement:blood-of-the-black-dragon-champion",
+      "to": "step:onyxia:alliance:11",
+      "type": "used_or_obtained_during",
+      "label": "Used / obtained during",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "item:attunement:blood-of-the-black-dragon-champion",
+      "to": "step:onyxia:horde:11",
+      "type": "used_or_obtained_during",
+      "label": "Used / obtained during",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "item:attunement:amulet-of-draconic-subversion",
+      "to": "step:onyxia:horde:08",
+      "type": "used_or_obtained_during",
+      "label": "Used / obtained during",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "item:attunement:dull-drakefire-amulet",
+      "to": "step:onyxia:horde:10",
+      "type": "used_or_obtained_during",
+      "label": "Used / obtained during",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303009",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard-announced attunement information; not live-play verified."
+    },
+    {
+      "from": "quest:old-ironforge-incursion-the-hall-of-thanes",
+      "to": "dungeon:hall-of-thanes",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:the-wrath-of-rath-mael-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:earthen-echo-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:heart-of-disruption-city-of-dalaran",
+      "to": "dungeon:city-of-dalaran",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:abominable-creatures-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:remember-that-i-love-you-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:a-frightened-request-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:prehistoric-prism-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:bloodied-insignia-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:lost-relic-carry-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:changing-tastes-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:elder-knowledge-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:lost-in-the-thicket-things-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:horrors-in-the-highland-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:light-s-justice-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:songblade-search-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:the-new-plague-ruins-of-lordaeron",
+      "to": "dungeon:ruins-of-lordaeron",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:highland-hides-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:a-green-sample-city-of-dalaran",
+      "to": "dungeon:city-of-dalaran",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:open-the-maw-excavation-site-wetlands",
+      "to": "dungeon:excavation-site",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:starving-arcane-city-of-dalaran",
+      "to": "dungeon:city-of-dalaran",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "quest:the-grave-knight-city-of-dalaran",
+      "to": "dungeon:city-of-dalaran",
+      "type": "listed_under_beta_category",
+      "label": "Indexed under (beta)",
+      "source_url": "https://www.wowhead.com/forever/quests",
+      "evidence_type": "third_party_beta_index",
+      "note": "Wowhead beta category label only; does not establish quest objectives, entrance, reward or live availability."
+    },
+    {
+      "from": "class-change:hunter:aimed-shot-baseline",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:combat-traps",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:separate-trap-cooldowns",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:hunter-pet-gear-scaling",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:fox-pet-family",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:arcane-shot-cooldown",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:scorpid-sting",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:summon-hawk",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:lone-wolf",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:sniper-shot",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:strider-kick",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:hunter:hunter-dead-zone",
+      "to": "class:hunter",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:revive",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:natures-grasp-baseline",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:omen-of-clarity-baseline",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:lacerate",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:form-compatible-consumables",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:weapon-effects-in-forms",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:racial-skills-in-forms",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:entangling-roots-indoors",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:primal-bite",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:wild-growth",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:druid:moonkin-and-leader-of-the-pack",
+      "to": "class:druid",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:fear-ward-for-all-races",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:devouring-plague-for-all-races",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:divine-spirit-baseline",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:shadow-word-death",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:confounding-flash",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:contingency-plan",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:chastise",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:prayer-of-mending",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:vampiric-embrace",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:priest:shadowform",
+      "to": "class:priest",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:tactical-mastery-baseline",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:victory-rush",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:rage-while-absorbing-hits",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:rage-from-critical-strikes",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:separated-major-cooldowns",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:thunder-clap-in-defensive-stance",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:spearing-strike",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:raging-blows",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:vanguard",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warrior:shield-wall-cooldown",
+      "to": "class:warrior",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:comprehension",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:frostfire-bolt",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:arcane-blast",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:missile-barrage",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:heating-up",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:individual-ignite-debuffs",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:ice-lance",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:ice-block-moved",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:cold-snap-moved",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:mage:improved-blizzard-slow",
+      "to": "class:mage",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:faster-totem-global-cooldown",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:longer-buff-totems",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:totem-tracking-interface",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:longer-weapon-imbues",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:weapon-imbue-compatibility",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:totemic-recall",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:totemic-projection",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:call-of-the-elements",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:call-of-the-spirits",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:call-of-the-ancestors",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:windfury-totem-stacking",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:stormstrike-relocation",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:lava-burst",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:shaman:riptide",
+      "to": "class:shaman",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:more-poison-charges",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:poisons-and-temporary-enchants",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:feint",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:assassination-identity",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:combat-identity",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:subtlety-identity",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:rogue:thousand-cuts",
+      "to": "class:rogue",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:banes",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:curse-of-the-elements",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:curse-of-shadows-removed",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:firestone-and-spellstone",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:life-tap-spirit-scaling",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:drain-soul-shards",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:demon-pet-scaling",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:malediction",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:soul-link-moved",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:demonic-pact",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:warlock:incinerate",
+      "to": "class:warlock",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:sacred-arbiter",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:pursuit-of-justice",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:holy-conduit",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:repentance-moved",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:twist-of-light",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:templars-bulwark",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:consecration-baseline",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "class-change:paladin:paladin-combat-tradeoffs",
+      "to": "class:paladin",
+      "type": "class_mechanic_for",
+      "label": "Class change for",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "evidence_type": "official_announcement",
+      "note": "Official beta design announcement; not confirmed in launched client."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:01",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:02",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:03",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:04",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:05",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:06",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:07",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:08",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:09",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:10",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:11",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:12",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:13",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:rank:14",
+      "type": "lists_rank_reward",
+      "label": "Announced rank reward",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Official rank requirement; no claim about live vendor price, item ID or automatic grant."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:honor",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:rank-points",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:weekly-cap",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:gear-upgrade",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:emboldened-seals",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:seasonal-legacy",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:honor-ui",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "pvp:mechanic:battleground-holidays",
+      "type": "explains_pvp_rule",
+      "label": "PvP rule",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24303316",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard October 7 PvP progression announcement."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:experience-preset",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:sd-hd-models",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:two-part-name",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:install",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:subscription",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:launch-preparation",
+      "to": "launch:global-time",
+      "type": "covers_launch_topic",
+      "label": "Launch preparation topic",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315820",
+      "evidence_type": "official_announcement",
+      "note": "Summarized from Blizzard official launch guidance; schedule is planned."
+    },
+    {
+      "from": "guide:pvp-progression",
+      "to": "world:darkspear-islands-battleground",
+      "type": "includes_battleground",
+      "label": "Related PvP battleground",
+      "source_url": "https://worldofwarcraft.blizzard.com/en-us/news/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+      "evidence_type": "official_announcement",
+      "note": "Blizzard includes Darkspear Islands in its overview of PvP changes; not a claim about a specific reward."
+    }
+  ]
+}
