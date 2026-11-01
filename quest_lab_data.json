@@ -1,0 +1,1200 @@
+{
+  "version": "1.0.0",
+  "as_of": "2026-11-01",
+  "launch": "2026-11-04T23:00:00Z",
+  "records": [
+    {
+      "id": 783,
+      "name": "A Threat Within",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 1,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Deputy Willem",
+      "ends": "Marshal McBride",
+      "summary": "Speak with Marshal McBride inside Northshire Abbey.",
+      "objectives": [
+        {
+          "name": "Speak with Marshal McBride",
+          "count": 1
+        }
+      ],
+      "requires": [],
+      "pickup": [
+        48.2,
+        42.8
+      ],
+      "turnin": [
+        48.8,
+        41.4
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70658",
+      "source_url": "https://www.60.tools/quests/783-a-threat-within",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 7,
+      "name": "Kobold Camp Cleanup",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 2,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Marshal McBride",
+      "ends": "Marshal McBride",
+      "summary": "Defeat 10 Kobold Vermin in the northern Northshire area.",
+      "objectives": [
+        {
+          "name": "Kobold Vermin",
+          "count": 10
+        }
+      ],
+      "requires": [
+        783
+      ],
+      "pickup": [
+        48.8,
+        41.4
+      ],
+      "turnin": [
+        48.8,
+        41.4
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70532",
+      "source_url": "https://www.60.tools/quests/7-kobold-camp-cleanup",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 15,
+      "name": "Investigate Echo Ridge",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 3,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Marshal McBride",
+      "ends": "Marshal McBride",
+      "summary": "Defeat 10 Kobold Workers around Echo Ridge Mine.",
+      "objectives": [
+        {
+          "name": "Kobold Worker",
+          "count": 10
+        }
+      ],
+      "requires": [
+        7
+      ],
+      "pickup": [
+        48.8,
+        41.4
+      ],
+      "turnin": [
+        48.8,
+        41.4
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70658",
+      "source_url": "https://www.60.tools/quests/15-investigate-echo-ridge",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 21,
+      "name": "Skirmish at Echo Ridge",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 5,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Marshal McBride",
+      "ends": "Marshal McBride",
+      "summary": "Defeat 12 Kobold Laborers near Echo Ridge Mine.",
+      "objectives": [
+        {
+          "name": "Kobold Laborer",
+          "count": 12
+        }
+      ],
+      "requires": [
+        15
+      ],
+      "pickup": [
+        48.8,
+        41.4
+      ],
+      "turnin": [
+        48.8,
+        41.4
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70009",
+      "source_url": "https://www.60.tools/quests/21-skirmish-at-echo-ridge",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 54,
+      "name": "Report to Goldshire",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 5,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Marshal McBride",
+      "ends": "Marshal Dughan",
+      "summary": "Take the report from Northshire to Marshal Dughan in Goldshire.",
+      "objectives": [
+        {
+          "name": "Deliver the report",
+          "count": 1
+        }
+      ],
+      "requires": [
+        21
+      ],
+      "pickup": [
+        48.8,
+        41.4
+      ],
+      "turnin": null,
+      "objective_point": null,
+      "build": "1.60.1.70658",
+      "source_url": "https://www.60.tools/quests/54-report-to-goldshire",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 5261,
+      "name": "Eagan Peltskinner",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 2,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Deputy Willem",
+      "ends": "Eagan Peltskinner",
+      "summary": "Visit Eagan Peltskinner near Northshire Abbey.",
+      "objectives": [
+        {
+          "name": "Speak with Eagan Peltskinner",
+          "count": 1
+        }
+      ],
+      "requires": [
+        783
+      ],
+      "pickup": [
+        48.2,
+        42.8
+      ],
+      "turnin": [
+        48.9,
+        40.2
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70707",
+      "source_url": "https://senseos.gg/wiki/wow-forever/quests/5261/eagan-peltskinner/",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 33,
+      "name": "Wolves Across the Border",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 2,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Eagan Peltskinner",
+      "ends": "Eagan Peltskinner",
+      "summary": "Collect 8 Tough Wolf Meat in the Northshire area.",
+      "objectives": [
+        {
+          "name": "Tough Wolf Meat",
+          "count": 8
+        }
+      ],
+      "requires": [
+        5261
+      ],
+      "pickup": [
+        48.8,
+        40.2
+      ],
+      "turnin": [
+        48.8,
+        40.2
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70338",
+      "source_url": "https://www.60.tools/quests/33-wolves-across-the-border",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 18,
+      "name": "Brotherhood of Thieves",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 4,
+      "minimum": 2,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Deputy Willem",
+      "ends": "Deputy Willem",
+      "summary": "Collect 12 Red Burlap Bandanas from Defias enemies near Northshire Vineyards.",
+      "objectives": [
+        {
+          "name": "Red Burlap Bandana",
+          "count": 12
+        }
+      ],
+      "requires": [
+        783
+      ],
+      "pickup": [
+        48.2,
+        42.8
+      ],
+      "turnin": [
+        48.2,
+        42.8
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70658",
+      "source_url": "https://www.60.tools/quests/18-brotherhood-of-thieves",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 6,
+      "name": "Bounty on Garrick Padfoot",
+      "zone": "Northshire Valley",
+      "region": "Elwynn Forest",
+      "level": 5,
+      "minimum": 2,
+      "faction": "Alliance",
+      "path": "human",
+      "starts": "Deputy Willem",
+      "ends": "Deputy Willem",
+      "summary": "Recover Garrick Padfoot’s head from the Northshire Vineyards.",
+      "objectives": [
+        {
+          "name": "Garrick’s Head",
+          "count": 1
+        }
+      ],
+      "requires": [
+        18
+      ],
+      "pickup": [
+        48.2,
+        42.8
+      ],
+      "turnin": [
+        48.2,
+        42.8
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70245",
+      "source_url": "https://www.60.tools/quests/6-bounty-on-garrick-padfoot",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 456,
+      "name": "The Balance of Nature (first)",
+      "zone": "Shadowglen",
+      "region": "Teldrassil",
+      "level": 2,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "nightelf",
+      "starts": "Conservator Ilthalaine",
+      "ends": "Conservator Ilthalaine",
+      "summary": "Defeat 7 Young Nightsabers and 4 Young Thistle Boars.",
+      "objectives": [
+        {
+          "name": "Young Nightsaber",
+          "count": 7
+        },
+        {
+          "name": "Young Thistle Boar",
+          "count": 4
+        }
+      ],
+      "requires": [],
+      "pickup": [
+        58.7,
+        44.3
+      ],
+      "turnin": [
+        58.7,
+        44.3
+      ],
+      "objective_point": [
+        61.6,
+        44.2
+      ],
+      "build": "1.60.1.70425",
+      "source_url": "https://www.60.tools/quests/456-the-balance-of-nature",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 457,
+      "name": "The Balance of Nature (follow-up)",
+      "zone": "Shadowglen",
+      "region": "Teldrassil",
+      "level": 3,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "nightelf",
+      "starts": "Conservator Ilthalaine",
+      "ends": "Conservator Ilthalaine",
+      "summary": "Defeat 7 Mangy Nightsabers and 7 Thistle Boars.",
+      "objectives": [
+        {
+          "name": "Mangy Nightsaber",
+          "count": 7
+        },
+        {
+          "name": "Thistle Boar",
+          "count": 7
+        }
+      ],
+      "requires": [
+        456
+      ],
+      "pickup": [
+        58.7,
+        44.3
+      ],
+      "turnin": [
+        58.7,
+        44.3
+      ],
+      "objective_point": [
+        62.0,
+        36.9
+      ],
+      "build": "1.60.1.70425",
+      "source_url": "https://www.60.tools/quests/457-the-balance-of-nature",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 179,
+      "name": "Dwarven Outfitters",
+      "zone": "Coldridge Valley",
+      "region": "Dun Morogh",
+      "level": 1,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "dwarfgnome",
+      "starts": "Sten Stoutarm",
+      "ends": "Sten Stoutarm",
+      "summary": "Gather 8 Tough Wolf Meat for Sten Stoutarm.",
+      "objectives": [
+        {
+          "name": "Tough Wolf Meat",
+          "count": 8
+        }
+      ],
+      "requires": [],
+      "pickup": [
+        29.8,
+        71.2
+      ],
+      "turnin": [
+        29.8,
+        71.2
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70658",
+      "source_url": "https://www.60.tools/quests/179-dwarven-outfitters",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    },
+    {
+      "id": 183,
+      "name": "The Boar Hunter",
+      "zone": "Coldridge Valley",
+      "region": "Dun Morogh",
+      "level": 3,
+      "minimum": 1,
+      "faction": "Alliance",
+      "path": "dwarfgnome",
+      "starts": "Talin Keeneye",
+      "ends": "Talin Keeneye",
+      "summary": "Defeat 12 Small Crag Boars in Coldridge Valley.",
+      "objectives": [
+        {
+          "name": "Small Crag Boar",
+          "count": 12
+        }
+      ],
+      "requires": [],
+      "pickup": [
+        22.6,
+        71.4
+      ],
+      "turnin": [
+        22.6,
+        71.4
+      ],
+      "objective_point": null,
+      "build": "1.60.1.70425",
+      "source_url": "https://www.60.tools/quests/183-the-boar-hunter",
+      "source_type": "independent_classic_reference",
+      "evidence": "client_listed_classic_reference",
+      "rights": "brief_facts_with_attribution",
+      "certainty": "Forever beta client lists this quest ID; objectives and coordinates come from Classic references and may differ at launch."
+    }
+  ],
+  "index_only": [
+    {
+      "id": "quest:old-ironforge-incursion-the-hall-of-thanes",
+      "name": "Old Ironforge Incursion",
+      "category": "The Hall of Thanes",
+      "level": 16,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:stepping-stones-the-barrens",
+      "name": "Stepping Stones",
+      "category": "The Barrens",
+      "level": 24,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:and-that-note-you-found-westfall",
+      "name": "... and that note you found",
+      "category": "Westfall",
+      "level": 22,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:and-that-note-you-found-the-barrens",
+      "name": "... and that note you found",
+      "category": "The Barrens",
+      "level": 22,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:this-must-be-the-place-thoradin-s-wall",
+      "name": "This Must Be The Place",
+      "category": "Thoradin's Wall",
+      "level": 32,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:leaders-of-the-fang-wailing-caverns",
+      "name": "Leaders of the Fang",
+      "category": "Wailing Caverns",
+      "level": 22,
+      "minimum": 10,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:underground-map-dun-morogh",
+      "name": "Underground Map",
+      "category": "Dun Morogh",
+      "level": 15,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-wrath-of-rath-mael-ruins-of-lordaeron",
+      "name": "The Wrath of Rath'mael",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:eagle-s-fist-stonewrought-dam",
+      "name": "Eagle's Fist",
+      "category": "Stonewrought Dam",
+      "level": 32,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-defias-brotherhood-the-deadmines",
+      "name": "The Defias Brotherhood",
+      "category": "The Deadmines",
+      "level": 22,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:friend-of-the-library-special",
+      "name": "Friend of the Library",
+      "category": "Special",
+      "level": 20,
+      "minimum": 1,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:a-moon-kissed-blade-paladin",
+      "name": "A Moon-Kissed Blade",
+      "category": "Paladin",
+      "level": 25,
+      "minimum": 20,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:earthen-echo-excavation-site-wetlands",
+      "name": "Earthen Echo",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:friend-of-the-kirin-tor-alterac-mountains",
+      "name": "Friend of the Kirin Tor",
+      "category": "Alterac Mountains",
+      "level": 33,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:heart-of-disruption-city-of-dalaran",
+      "name": "Heart of Disruption",
+      "category": "City of Dalaran",
+      "level": 33,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:abominable-creatures-ruins-of-lordaeron",
+      "name": "Abominable Creatures",
+      "category": "Ruins of Lordaeron",
+      "level": 21,
+      "minimum": 16,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:remember-that-i-love-you-ruins-of-lordaeron",
+      "name": "Remember That I Love You",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:wet-job-stonetalon-mountains",
+      "name": "Wet Job",
+      "category": "Stonetalon Mountains",
+      "level": 32,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:a-frightened-request-ruins-of-lordaeron",
+      "name": "A Frightened Request",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:prehistoric-prism-excavation-site-wetlands",
+      "name": "Prehistoric Prism",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:greater-friend-of-the-library-special",
+      "name": "Greater Friend of the Library",
+      "category": "Special",
+      "level": 35,
+      "minimum": 20,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:destruction-in-deadmines-the-deadmines",
+      "name": "Destruction in Deadmines",
+      "category": "The Deadmines",
+      "level": 18,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-test-of-righteousness-paladin",
+      "name": "The Test of Righteousness",
+      "category": "Paladin",
+      "level": 22,
+      "minimum": 20,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-tempest-s-weapons-shaman",
+      "name": "The Tempest's Weapons",
+      "category": "Shaman",
+      "level": 40,
+      "minimum": 30,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:stopping-the-cycle-wetlands",
+      "name": "Stopping the Cycle",
+      "category": "Wetlands",
+      "level": 34,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:bloodied-insignia-ruins-of-lordaeron",
+      "name": "Bloodied Insignia",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 16,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:lost-relic-carry-excavation-site-wetlands",
+      "name": "Lost Relic Carry",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:changing-tastes-excavation-site-wetlands",
+      "name": "Changing Tastes",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-fury-runs-deep-the-stockade",
+      "name": "The Fury Runs Deep",
+      "category": "The Stockade",
+      "level": 27,
+      "minimum": 22,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:blackfathom-villainy-blackfathom-deeps",
+      "name": "Blackfathom Villainy",
+      "category": "Blackfathom Deeps",
+      "level": 27,
+      "minimum": 18,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:rare-books-elwynn-forest",
+      "name": "Rare Books",
+      "category": "Elwynn Forest",
+      "level": 7,
+      "minimum": 1,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:stronger-than-steel-mulgore",
+      "name": "Stronger than Steel",
+      "category": "Mulgore",
+      "level": 29,
+      "minimum": 23,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:elder-knowledge-excavation-site-wetlands",
+      "name": "Elder Knowledge",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:khan-jehn-desolace",
+      "name": "Khan Jehn",
+      "category": "Desolace",
+      "level": 42,
+      "minimum": 35,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:lost-in-the-thicket-things-excavation-site-wetlands",
+      "name": "Lost in the Thicket Things",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:horrors-in-the-highland-excavation-site-wetlands",
+      "name": "Horrors in the Highland",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:light-s-justice-ruins-of-lordaeron",
+      "name": "Light's Justice",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:a-sealed-crate-uncategorized",
+      "name": "A Sealed Crate",
+      "category": "Uncategorized",
+      "level": 60,
+      "minimum": 1,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-orb-of-soran-ruk-warlock",
+      "name": "The Orb of Soran'ruk",
+      "category": "Warlock",
+      "level": 25,
+      "minimum": 20,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-glowing-shard-wailing-caverns",
+      "name": "The Glowing Shard",
+      "category": "Wailing Caverns",
+      "level": 26,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:unwelcome-guests-the-barrens",
+      "name": "Unwelcome Guests",
+      "category": "The Barrens",
+      "level": 18,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:in-the-name-of-the-light-scarlet-monastery",
+      "name": "In the Name of the Light",
+      "category": "Scarlet Monastery",
+      "level": 40,
+      "minimum": 34,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:red-silk-bandanas-the-deadmines",
+      "name": "Red Silk Bandanas",
+      "category": "The Deadmines",
+      "level": 17,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:songblade-search-excavation-site-wetlands",
+      "name": "Songblade Search",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-new-plague-ruins-of-lordaeron",
+      "name": "The New Plague",
+      "category": "Ruins of Lordaeron",
+      "level": 22,
+      "minimum": 16,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:highland-hides-excavation-site-wetlands",
+      "name": "Highland Hides",
+      "category": "Excavation Site: Wetlands",
+      "level": 28,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:a-green-sample-city-of-dalaran",
+      "name": "A Green Sample",
+      "category": "City of Dalaran",
+      "level": 33,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:deviate-eradication-wailing-caverns",
+      "name": "Deviate Eradication",
+      "category": "Wailing Caverns",
+      "level": 21,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:collecting-memories-the-deadmines",
+      "name": "Collecting Memories",
+      "category": "The Deadmines",
+      "level": 18,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-eye-of-bhossca-rogue",
+      "name": "The Eye of Bhossca",
+      "category": "Rogue",
+      "level": 35,
+      "minimum": 25,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-moonsilver-blade-paladin",
+      "name": "The Moonsilver Blade",
+      "category": "Paladin",
+      "level": 25,
+      "minimum": 20,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:book-return-elwynn-forest",
+      "name": "Book Return",
+      "category": "Elwynn Forest",
+      "level": 6,
+      "minimum": 1,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:open-the-maw-excavation-site-wetlands",
+      "name": "Open the Maw",
+      "category": "Excavation Site: Wetlands",
+      "level": 31,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:underground-assault-the-deadmines",
+      "name": "Underground Assault",
+      "category": "The Deadmines",
+      "level": 20,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:starving-arcane-city-of-dalaran",
+      "name": "Starving Arcane",
+      "category": "City of Dalaran",
+      "level": 33,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:searching-for-the-lost-satchel-ragefire-chasm",
+      "name": "Searching for the Lost Satchel",
+      "category": "Ragefire Chasm",
+      "level": 16,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:in-search-of-thaelrid-blackfathom-deeps",
+      "name": "In Search of Thaelrid",
+      "category": "Blackfathom Deeps",
+      "level": 24,
+      "minimum": 18,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:testing-the-wells-westfall",
+      "name": "Testing the Wells",
+      "category": "Westfall",
+      "level": 12,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:destruction-in-deadmines-westfall",
+      "name": "Destruction in Deadmines",
+      "category": "Westfall",
+      "level": 18,
+      "minimum": 9,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:shipping-label-the-barrens",
+      "name": "Shipping Label",
+      "category": "The Barrens",
+      "level": 60,
+      "minimum": 10,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:trouble-at-the-docks-wailing-caverns",
+      "name": "Trouble at the Docks",
+      "category": "Wailing Caverns",
+      "level": 18,
+      "minimum": 14,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:oh-brother-the-deadmines",
+      "name": "Oh Brother...",
+      "category": "The Deadmines",
+      "level": 20,
+      "minimum": 15,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:big-game-hunter-stranglethorn-vale",
+      "name": "Big Game Hunter",
+      "category": "Stranglethorn Vale",
+      "level": 43,
+      "minimum": 28,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:knowledge-in-the-deeps-blackfathom-deeps",
+      "name": "Knowledge in the Deeps",
+      "category": "Blackfathom Deeps",
+      "level": 23,
+      "minimum": 18,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:nibbled-on-book-elwynn-forest",
+      "name": "Nibbled-On Book",
+      "category": "Elwynn Forest",
+      "level": 2,
+      "minimum": 1,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-grave-knight-city-of-dalaran",
+      "name": "The Grave Knight",
+      "category": "City of Dalaran",
+      "level": 33,
+      "minimum": 24,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:into-the-scarlet-monastery-scarlet-monastery",
+      "name": "Into The Scarlet Monastery",
+      "category": "Scarlet Monastery",
+      "level": 42,
+      "minimum": 33,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-crone-of-the-kraul-razorfen-kraul",
+      "name": "The Crone of the Kraul",
+      "category": "Razorfen Kraul",
+      "level": 34,
+      "minimum": 29,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:whirlwind-weapon-warrior",
+      "name": "Whirlwind Weapon",
+      "category": "Warrior",
+      "level": 40,
+      "minimum": 30,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    },
+    {
+      "id": "quest:the-stockade-riots-the-stockade",
+      "name": "The Stockade Riots",
+      "category": "The Stockade",
+      "level": 29,
+      "minimum": 16,
+      "source": "https://www.wowhead.com/forever/quests",
+      "status": "beta_indexed",
+      "note": "Index listing only: giver, objectives, prerequisites and turn-ins are not established."
+    }
+  ],
+  "sources": {
+    "blizzard": "https://worldofwarcraft.blizzard.com/en-gb/news/24315820/world-of-warcraft-forever-goes-live-globally-4-november",
+    "classic_reference_notice": "https://theforeverera.com/en/quests/783/",
+    "everloot_api": "https://everloot.app/docs/api",
+    "restedxp_terms": "https://shop.restedxp.com/terms-conditions/"
+  },
+  "rights_notice": "Game facts are short paraphrased references with source attribution. No RestedXP paid guide content is embedded. Player observations are not imported."
+}
